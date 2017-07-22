@@ -31,13 +31,13 @@
  */
 
 /** HEADERS **/
-$LNG->HEADER_LOGO_HINT = 'Go to the '.$CFG->SITE_TITLE.' page d'acceuil';
+$LNG->HEADER_LOGO_HINT = 'Go to the '.$CFG->SITE_TITLE.' page d'Accueil';
 $LNG->HEADER_LOGO_ALT = $CFG->SITE_TITLE.' Logo';
-$LNG->HEADER_HOME_ICON_HINT = 'Revenir à la page d'acceuil';
-$LNG->HEADER_HOME_ICON_ALT = 'Icone acceuil';
+$LNG->HEADER_HOME_ICON_HINT = 'Revenir à la page d'Accueil';
+$LNG->HEADER_HOME_ICON_ALT = 'Icone Accueil';
 $LNG->HEADER_RSS_FEED_ICON_HINT = 'Prendre un flux RSS pour '.$CFG->SITE_TITLE.'. Note: each '.$LNG->ISSUE_NAME.' a aussi son propre flux.';
 $LNG->HEADER_RSS_FEED_ICON_ALT = 'Icone RSS';
-$LNG->HEADER_USER_HOME_LINK_HINT = 'Aller à votre page d'acceuil';
+$LNG->HEADER_USER_HOME_LINK_HINT = 'Aller à votre page d'Accueil';
 $LNG->HEADER_EDIT_PROFILE_LINK_TEXT = 'Editer votre profil';
 $LNG->HEADER_EDIT_PROFILE_LINK_HINT = 'Edit les informations de votre profil';
 $LNG->HEADER_SIGN_OUT_LINK_TEXT = 'Déconnexion';
@@ -407,7 +407,7 @@ $LNG->TAB_SEARCH_GO_BUTTON = 'Démarrer';
 $LNG->TAB_SEARCH_CLEAR_SEARCH_BUTTON = 'Effacer la recherche actuelle';
 
 //user
-$LNG->TAB_USER_HOME = 'Ma page d'acceuil';
+$LNG->TAB_USER_HOME = 'Ma page d'Accueil';
 $LNG->TAB_USER_ISSUE = 'Mon/ma '.$LNG->ISSUES_NAME;
 $LNG->TAB_USER_SOLUTION = 'Mon/ma '.$LNG->SOLUTIONS_NAME;
 $LNG->TAB_USER_PRO = 'Mon/ma '.$LNG->PROS_NAME;
@@ -424,7 +424,7 @@ $LNG->CHANGE_PASSWORD_CONFIRM_MISSMATCH_ERROR = "Le mot de passe et la confirmat
 $LNG->CHANGE_PASSWORD_PROVIDE_PASSWORD_ERROR = 'Vous devez entrer un mot de passe.';
 $LNG->CHANGE_PASSWORD_SUCCESSFUL_UPDATE = 'Mot de passe changé avec succès, bravo!';
 $LNG->CHANGE_PASSWORD_BACK_TO_PROFILE = 'Aller sur mon profil';
-$LNG->CHANGE_PASSWORD_GO_TO_MY_HOME = 'Aller sur ma page d'acceuil';
+$LNG->CHANGE_PASSWORD_GO_TO_MY_HOME = 'Aller sur ma page d'Accueil';
 $LNG->CHANGE_PASSWORD_CURRENT_PASSWORD_LABEL = 'Mot de passe actuel:';
 $LNG->CHANGE_PASSWORD_NEW_PASSWORD_LABEL = 'Nouveau mot de passe:';
 $LNG->CHANGE_PASSWORD_CONFIRM_PASSWORD_LABEL = 'Confirmez le mot de passe:';
@@ -462,7 +462,7 @@ $LNG->PROFILE_CHANGE_PASSWORD_LINK = '(changer le mot de passe)';
 $LNG->PROFILE_INVALID_EMAIL_ERROR = "Entrez une adresse courriel valide";
 $LNG->PROFILE_EMAIL_IN_USE_ERROR = "Cette adresse de courriel est déjà utilisée, veuillez utilisez une autre adresse.";
 $LNG->PROFILE_FULL_NAME_ERROR = "Enrez votre nom complet.";
-$LNG->PROFILE_HOMEPAGE_URL_ERROR = "Entrez une adresse URL valide (en incluant 'http://') pour votre page d'acceuil.";
+$LNG->PROFILE_HOMEPAGE_URL_ERROR = "Entrez une adresse URL valide (en incluant 'http://') pour votre page d'Accueil.";
 $LNG->PROFILE_UPDATE_BUTTON = 'Actualiser';
 $LNG->PROFILE_DESC_LABEL = 'Description:';
 $LNG->PROFILE_PHOTO_CURRENT_LABEL = 'Photo actuelle:';
@@ -470,7 +470,7 @@ $LNG->PROFILE_PHOTO_REPLACE_LABEL = 'Remplacer cette photo par:';
 $LNG->PROFILE_PHOTO_LABEL = 'Photo:';
 $LNG->PROFILE_LOCATION = 'Localisation: (ville)';
 $LNG->PROFILE_COUNTRY = 'Pays...';
-$LNG->PROFILE_HOMEPAGE = 'Page d'acceuil:';
+$LNG->PROFILE_HOMEPAGE = 'Page d'Accueil:';
 $LNG->PROFILE_EMAIL_VALIDATE_TEXT = 'Validez votre courriel';
 $LNG->PROFILE_EMAIL_VALIDATE_HINT = 'Votre courriel n'as pas été validé. Si vous voulez utiliser la validation sociale vous aurez besoin de valider votre propre courriel.';
 $LNG->PROFILE_EMAIL_VALIDATE_MESSAGE = 'Un courriel vous a été envoyé afin de vérifier que vous êtes le propriétaire de ce courriel.';
@@ -487,7 +487,7 @@ $LNG->POPUPS_BLOCK = 'Il semble que vous aillé bloqué les pop-ups
 
 /** TABS **/
 //main
-$LNG->TAB_HOME = 'Acceuil';
+$LNG->TAB_HOME = 'Accueil';
 $LNG->TAB_ISSUE = $LNG->DEBATES_NAME;
 $LNG->TAB_GROUP = $LNG->GROUPS_NAME;
 $LNG->TAB_USER = $LNG->USERS_NAME;
@@ -554,7 +554,7 @@ $LNG->FORM_REGISTER_NAME = 'Nom Complet';
 $LNG->FORM_REGISTER_INTEREST = 'Intéret dans ce DebateHub:';
 $LNG->FORM_REGISTER_LOCATION = 'Localisation: (ville)';
 $LNG->FORM_REGISTER_COUNTRY = 'Pays…';
-$LNG->FORM_REGISTER_HOMEPAGE = 'Page d'acceuil:';
+$LNG->FORM_REGISTER_HOMEPAGE = 'Page d'Accueil:';
 $LNG->FORM_REGISTER_NEWSLETTER = 'Newsletter:';
 $LNG->FORM_REGISTER_CAPTCHA = 'Êtes-vous un humain?';
 $LNG->FORM_REGISTER_SUBMIT_BUTTON = 'S'inscrire';
@@ -841,8 +841,8 @@ $LNG->ADMIN_CRON_FOLLOW_MONTHLY_TITLE = 'Rapport mensuel de débat Debate Hub';
 $LNG->ADMIN_CRON_FOLLOW_MONTHLY_DIGEST_RUN = 'Digest mensuel des activtés dans '.$CFG->SITE_TITLE.' Démarrer';
 $LNG->ADMIN_CRON_FOLLOW_DAILY = 'Journalier';
 $LNG->ADMIN_CRON_FOLLOW_DAILY_TITLE = 'Rapport journalier d'activité Debate Hub';
-$LNG->ADMIN_CRON_FOLLOW_DAILY_DIGEST_RUN = 'Digest journalier des activités dans Daily Digest for Activites on '.$CFG->SITE_TITLE.' Run';
-$LNG->ADMIN_CRON_FOLLOW_HOURLY = 'Hourly';
+$LNG->ADMIN_CRON_FOLLOW_DAILY_DIGEST_RUN = 'Digest journalier des activités dans '.$CFG->SITE_TITLE.' Démarrer';
+$LNG->ADMIN_CRON_FOLLOW_HOURLY = 'Par heure';
 $LNG->ADMIN_CRON_FOLLOW_HOURLY_TITLE = 'Hourly Debate Hub Activity Report';
 $LNG->ADMIN_CRON_FOLLOW_HOURLY_DIGEST_RUN = 'Hourly Digest for Activites on '.$CFG->SITE_TITLE.' Run';
 $LNG->ADMIN_CRON_FOLLOW_NO_DIGEST = 'No email digest for:';
@@ -859,7 +859,7 @@ $LNG->ADMIN_CRON_RECENT_ACTIVITY_MESSAGE = 'See below for the top 5 most recent 
 $LNG->ADMIN_NEWS_USERS = 'User List';
 
 /** HELP PAGES **/
-$LNG->HELP_NETWORKMAP_TITLE = 'Network Map';
+$LNG->HELP_NETWORKMAP_TITLE = 'Carte du réseau';
 $LNG->HELP_NETWORKMAP_BODY = '<b>Background:</b><br><br>&nbsp;&nbsp;&nbsp;';
 $LNG->HELP_NETWORKMAP_BODY .= '<b>L-drag to pan</b><br>&nbsp;&nbsp;&nbsp;';
 $LNG->HELP_NETWORKMAP_BODY .= '<b>R-click</b> to fit network on screen (Apple-Click on Macs)<br>&nbsp;&nbsp&nbsp;';
@@ -873,15 +873,15 @@ $LNG->HELP_NETWORKMAP_BODY .= '<b>Connections:</b><br><br>&nbsp;&nbsp;&nbsp;';
 $LNG->HELP_NETWORKMAP_BODY .= '<b>Mouse over blobs</b> to view an Idea\'s<br>&nbsp;&nbsp;&nbsp;';
 
 /** CORE **/
-$LNG->CORE_UNKNOWN_USER_ERROR = 'User unknown';
-$LNG->CORE_NOT_IMAGE_ERROR = 'Sorry you can only upload images.';
-$LNG->CORE_NOT_IMAGE_TOO_LARGE_ERROR = 'Sorry image file is too large.';
-$LNG->CORE_NOT_IMAGE_UPLOAD_ERROR = 'An error occured uploading the image';
+$LNG->CORE_UNKNOWN_USER_ERROR = 'Utilisateur inconnu';
+$LNG->CORE_NOT_IMAGE_ERROR = 'Vous pouvez seulement upploader des images.';
+$LNG->CORE_NOT_IMAGE_TOO_LARGE_ERROR = 'le fichier image est trop large.';
+$LNG->CORE_NOT_IMAGE_UPLOAD_ERROR = 'Erreur durant l'upload de l'image';
 $LNG->CORE_NOT_IMAGE_RESIZE_ERROR = 'Error resizing image';
 $LNG->CORE_NOT_IMAGE_SCALE_ERROR = 'Error scaling image.';
 
 $LNG->CORE_SESSION_OK = 'OK';
-$LNG->CORE_SESSION_INVALID = 'Session Invalid';
+$LNG->CORE_SESSION_INVALID = 'Session Invalide';
 
 $LNG->CORE_AUDIT_NOT_XML_ERROR = 'Not a valid XML file';
 $LNG->CORE_AUDIT_CONNECTION_NOT_FOUND_ERROR = 'Connection not found';
@@ -951,31 +951,31 @@ $LNG->ERROR_INVALID_CONNECTION_MESSAGE = "Invalid connection combination. Does n
 $LNG->ERROR_INVALID_PARAMETER_TYPE_MESSAGE = "Invalid parameter type";
 
 /** NEW USER HOME PAGE ARRANGEMENT **/
-$LNG->TAB_USER_DATA = 'My Data';
-$LNG->TAB_USER_GROUP = 'My '.$LNG->GROUPS_NAME;
-$LNG->TAB_USER_SOCIAL = 'My Social Network';
+$LNG->TAB_USER_DATA = 'Mes données';
+$LNG->TAB_USER_GROUP = 'Mon '.$LNG->GROUPS_NAME;
+$LNG->TAB_USER_SOCIAL = 'Mon réseau social';
 
 /** SPAM REPORTING **/
-$LNG->SPAM_CONFIRM_MESSAGE_PART1= 'Are you sure you want to report';
-$LNG->SPAM_CONFIRM_MESSAGE_PART2= 'as Spam / Inappropriate?';
-$LNG->SPAM_SUCCESS_MESSAGE = 'has been reported as spam';
-$LNG->SPAM_REPORTED_TEXT = 'Reported as Spam';
-$LNG->SPAM_REPORTED_HINT = 'This has been reported as Spam / Inappropriate content';
-$LNG->SPAM_REPORT_TEXT = 'Report as Spam';
-$LNG->SPAM_REPORT_HINT = 'Report this as Spam / Inappropriate content';
-$LNG->SPAM_LOGIN_REPORT_TEXT = 'Sign In to Report as Spam';
-$LNG->SPAM_LOGIN_REPORT_HINT = 'Sign In to Report this as Spam / Inappropriate content';
-$LNG->SPAM_ADMIN_MANAGER_SPAM_LINK = "Reported Items";
-$LNG->SPAM_ADMIN_TITLE = "Item Report Manager";
-$LNG->SPAM_ADMIN_ID_ERROR = "Can not process request as nodeid is missing";
-$LNG->SPAM_ADMIN_TABLE_HEADING0 = "Reported By";
-$LNG->SPAM_ADMIN_TABLE_HEADING1 = "Title";
+$LNG->SPAM_CONFIRM_MESSAGE_PART1= 'Êtes vous sur de vouloir signaler';
+$LNG->SPAM_CONFIRM_MESSAGE_PART2= 'comme spam / Inapproprié?';
+$LNG->SPAM_SUCCESS_MESSAGE = 'a été signlé comme spam';
+$LNG->SPAM_REPORTED_TEXT = 'Signalé comme spam';
+$LNG->SPAM_REPORTED_HINT = 'Ceci a été signalé comme spam / Contenu inapproprié';
+$LNG->SPAM_REPORT_TEXT = 'Signaler comme spam';
+$LNG->SPAM_REPORT_HINT = 'Signaler ceci comme spam / Contenu inapproprié';
+$LNG->SPAM_LOGIN_REPORT_TEXT = 'Connection pour signaler comme Spam';
+$LNG->SPAM_LOGIN_REPORT_HINT = 'Connection pour signaler ceci comme Spam / Contenu inapproprié';
+$LNG->SPAM_ADMIN_MANAGER_SPAM_LINK = "Objets signalés";
+$LNG->SPAM_ADMIN_TITLE = "Gérant des objets signalés";
+$LNG->SPAM_ADMIN_ID_ERROR = "Ne ppeut pas procéder la demander comme la nodeid manque";
+$LNG->SPAM_ADMIN_TABLE_HEADING0 = "Signaler par";
+$LNG->SPAM_ADMIN_TABLE_HEADING1 = "Titre";
 $LNG->SPAM_ADMIN_TABLE_HEADING2 = "Action";
-$LNG->SPAM_ADMIN_DELETE_CHECK_MESSAGE = "Are you sure you want to delete the item?: ";
-$LNG->SPAM_ADMIN_RESTORE_CHECK_MESSAGE = "Are you sure you want to set as NOT SPAM?: ";
-$LNG->SPAM_ADMIN_RESTORE_BUTTON = "Not Spam";
-$LNG->SPAM_ADMIN_DELETE_BUTTON = "Delete";
-$LNG->SPAM_ADMIN_VIEW_BUTTON = "View Details";
+$LNG->SPAM_ADMIN_DELETE_CHECK_MESSAGE = "Êtes vous sûr de vouloir supprimer cet objet?: ";
+$LNG->SPAM_ADMIN_RESTORE_CHECK_MESSAGE = "Êtes vous sûr de vouloir l'indiquer comme NON SPAM ?: ";
+$LNG->SPAM_ADMIN_RESTORE_BUTTON = "Non Spam";
+$LNG->SPAM_ADMIN_DELETE_BUTTON = "Supprimer";
+$LNG->SPAM_ADMIN_VIEW_BUTTON = "Voir les détails";
 $LNG->SPAM_ADMIN_NONE_MESSAGE = 'There are currently no items reported as Spam / Inappropriate';
 
 $LNG->SPAM_USER_REPORTED = 'User has been reported as a Spammer / Inappropriate';
