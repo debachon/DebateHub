@@ -477,20 +477,20 @@ function loadParticipationStats() {
 
 			if ($('health-participation')) {
 				$('health-participation-count').update(peoplecount);
-				var person = peoplecount == 1 ? '<?php echo $LNG->STATS_OVERVIEW_PERSON; ?>' :'<?php echo $LNG->STATS_OVERVIEW_PEOPLE; ?>';
-				$('health-participation-message').update(person+' '+'<?php echo $LNG->STATS_OVERVIEW_HEALTH_CONTRIBUTORS; ?>');
+				var person = peoplecount == 1 ? "<?php echo $LNG->STATS_OVERVIEW_PERSON; ?>" :"<?php echo $LNG->STATS_OVERVIEW_PEOPLE; ?>";
+				$('health-participation-message').update(person+' '+"<?php echo $LNG->STATS_OVERVIEW_HEALTH_CONTRIBUTORS; ?>");
 				if (peoplecount < 3) {
 					$('health-participation').trafficlight = 'red';
 					$('health-participation-red').className = 'trafficlightredon';
-					$('health-participation-recomendation').update('<?php echo $LNG->STATS_OVERVIEW_HEALTH_PROBLEM; ?>');
+					$('health-participation-recomendation').update("<?php echo $LNG->STATS_OVERVIEW_HEALTH_PROBLEM; ?>");
 				} else if (peoplecount >= 3 && peoplecount <= 5) {
 					$('health-participation').trafficlight = 'orange';
 					$('health-participation-orange').className = 'trafficlightorangeon';
-					$('health-participation-recomendation').update('<?php echo $LNG->STATS_OVERVIEW_HEALTH_MAYBE_PROBLEM; ?>');
+					$('health-participation-recomendation').update("<?php echo $LNG->STATS_OVERVIEW_HEALTH_MAYBE_PROBLEM; ?>");
 				} else if (peoplecount > 5) {
 					$('health-participation').trafficlight = 'green';
 					$('health-participation-green').className = 'trafficlightgreenon';
-					$('health-participation-recomendation').update('<?php echo $LNG->STATS_OVERVIEW_HEALTH_NO_PROBLEM; ?>');
+					$('health-participation-recomendation').update("<?php echo $LNG->STATS_OVERVIEW_HEALTH_NO_PROBLEM; ?>");
 				}
 				$('health-participation').style.display = 'block';
 			}
@@ -549,7 +549,7 @@ function loadContributionStats() {
 					|| ideaRatio <= 0.1 || votingRatio <= 0.1 || proRatio <= 0.1 || conRatio <= 0.1) {
 				$('health-debate').trafficlight = 'red';
 
-				var message = '<?php echo $LNG->STATS_DEBATE_CONTRIBUTION_MESSAGE; ?>';
+				var message = "<?php echo $LNG->STATS_DEBATE_CONTRIBUTION_MESSAGE; ?>";
 				var needsAnd = false;
 				if (ideacount == 0 || ideaRatio <= 0.1) {
 					message += ' <?php echo $LNG->SOLUTIONS_NAME; ?>';
@@ -577,12 +577,12 @@ function loadContributionStats() {
 				}
 
 				$('health-debate-message').update(message);
-				$('health-debate-recomendation').update('<?php echo $LNG->STATS_OVERVIEW_HEALTH_PROBLEM; ?>');
+				$('health-debate-recomendation').update("<?php echo $LNG->STATS_OVERVIEW_HEALTH_PROBLEM; ?>");
 				$('health-debate-red').className = "trafficlightredon";
 			} else if (ideaRatio > 0.1 && votingRatio > 0.1 && proRatio > 0.1 && conRatio > 0.1
 					&& (ideaRatio <= 0.2 || votingRatio <= 0.2 || proRatio <= 0.2 || conRatio <= 0.2)) {
 
-				var message = '<?php echo $LNG->STATS_DEBATE_CONTRIBUTION_MESSAGE; ?>';
+				var message = "<?php echo $LNG->STATS_DEBATE_CONTRIBUTION_MESSAGE; ?>";
 				var needsAnd = false;
 				if (ideaRatio <= 0.2) {
 					message += ' <?php echo $LNG->SOLUTIONS_NAME; ?>';
@@ -611,12 +611,12 @@ function loadContributionStats() {
 
 				$('health-debate').trafficlight = 'orange';
 				$('health-debate-message').update(message);
-				$('health-debate-recomendation').update('<?php echo $LNG->STATS_OVERVIEW_HEALTH_MAYBE_PROBLEM; ?>');
+				$('health-debate-recomendation').update("<?php echo $LNG->STATS_OVERVIEW_HEALTH_MAYBE_PROBLEM; ?>");
 				$('health-debate-orange').className = "trafficlightorangeon";
 			} else {
 				$('health-debate').trafficlight = 'green';
-				$('health-debate-message').update('<?php echo $LNG->STATS_DEBATE_CONTRIBUTION_GREEN; ?>');
-				$('health-debate-recomendation').update('<?php echo $LNG->STATS_OVERVIEW_HEALTH_NO_PROBLEM; ?>');
+				$('health-debate-message').update("<?php echo $LNG->STATS_DEBATE_CONTRIBUTION_GREEN; ?>");
+				$('health-debate-recomendation').update("<?php echo $LNG->STATS_OVERVIEW_HEALTH_NO_PROBLEM; ?>");
 				$('health-debate-green').className = "trafficlightgreenon";
 			}
 
@@ -655,24 +655,24 @@ function loadViewingStats() {
 				$('health-viewingpeople-count').update(viewingmembercount);
 				$('health-viewinggroup-count').update(groupmembercount);
 
-				var person = viewingmembercount == 1 ? '<?php echo $LNG->STATS_OVERVIEW_PERSON; ?>' :'<?php echo $LNG->STATS_OVERVIEW_PEOPLE; ?>';
+				var person = viewingmembercount == 1 ? "<?php echo $LNG->STATS_OVERVIEW_PERSON; ?>" :"<?php echo $LNG->STATS_OVERVIEW_PEOPLE; ?>";
 
-				$('health-viewing-message').update(person+' '+'<?php echo $LNG->STATS_DEBATE_VIEWING_MESSAGE_PART1; ?>');
-				$('health-viewing-message-part2').update('<?php echo $LNG->STATS_DEBATE_VIEWING_MESSAGE_PART2; ?>');
+				$('health-viewing-message').update(person+' '+"<?php echo $LNG->STATS_DEBATE_VIEWING_MESSAGE_PART1; ?>");
+				$('health-viewing-message-part2').update("<?php echo $LNG->STATS_DEBATE_VIEWING_MESSAGE_PART2; ?>");
 
 
 				if (ratio >= 0.5) {
 					$('health-viewing').trafficlight = 'green';
 					$('health-viewing-green').className = "trafficlightgreenon";
-					$('health-viewing-recomendation').update('<?php echo $LNG->STATS_OVERVIEW_HEALTH_NO_PROBLEM; ?>');
+					$('health-viewing-recomendation').update("<?php echo $LNG->STATS_OVERVIEW_HEALTH_NO_PROBLEM; ?>");
 				} else if (ratio < 0.5 && ratio >= 0.2) {
 					$('health-viewing').trafficlight = 'orange';
 					$('health-viewing-orange').className = "trafficlightorangeon";
-					$('health-viewing-recomendation').update('<?php echo $LNG->STATS_OVERVIEW_HEALTH_MAYBE_PROBLEM; ?>');
+					$('health-viewing-recomendation').update("<?php echo $LNG->STATS_OVERVIEW_HEALTH_MAYBE_PROBLEM; ?>");
 				} else {
 					$('health-viewing').trafficlight = 'red';
 					$('health-viewing-red').className = "trafficlightredon";
-					$('health-viewing-recomendation').update('<?php echo $LNG->STATS_OVERVIEW_HEALTH_PROBLEM; ?>');
+					$('health-viewing-recomendation').update("<?php echo $LNG->STATS_OVERVIEW_HEALTH_PROBLEM; ?>");
 				}
 
 				$('health-viewing').style.display = 'block';
@@ -690,7 +690,7 @@ function insertArgumentLink(uniQ, type) {
 
 	var weblink = new Element("input", {
 		'class':'hgrinput',
-		'placeholder':'<?php echo $LNG->FORM_LINK_LABEL; ?>',
+		'placeholder':"<?php echo $LNG->FORM_LINK_LABEL; ?>",
 		'id':'argumentlink'+type+uniQ+count,
 		'name':'argumentlink'+type+uniQ+'[]',
 		'value':'',
@@ -710,7 +710,7 @@ function insertIdeaLink(uniQ, type) {
 
 	var weblink = new Element("input", {
 		'class':'forminput hgrwide',
-		'placeholder':'<?php echo $LNG->FORM_LINK_LABEL; ?>',
+		'placeholder':"<?php echo $LNG->FORM_LINK_LABEL; ?>",
 		'id':'argumentlink'+type+uniQ+count,
 		'name':'argumentlink'+type+uniQ+'[]',
 		'value':'',
@@ -1126,8 +1126,8 @@ function loadsolutions(context,args){
 
 					if (NODE_ARGS['currentphase'] != CLOSED_PHASE && NODE_ARGS['currentphase'] != DECIDE_PHASE) {
 						var tb3 = new Element("div", {'class':'toolbarrow'});
-						var sortOpts = {date: '<?php echo $LNG->SORT_CREATIONDATE; ?>', moddate: '<?php echo $LNG->SORT_MODDATE; ?>', random:'<?php echo $LNG->SORT_RANDOM; ?>'};
-						//sortOpts.vote = '<?php echo $LNG->SORT_VOTES; ?>';
+						var sortOpts = {date: "<?php echo $LNG->SORT_CREATIONDATE; ?>", moddate: "<?php echo $LNG->SORT_MODDATE; ?>", random:"<?php echo $LNG->SORT_RANDOM; ?>"};
+						//sortOpts.vote = "<?php echo $LNG->SORT_VOTES; ?>";
 						tb3.insert(displaySortForm(sortOpts,args,'solution',reorderSolutions));
 
 						container.insert(tb3);
@@ -1336,12 +1336,11 @@ function editExploreNode(orinode, nodeid, nodetypeid, name, desc, type, uniQ, ac
 						reqUrl += "&resources["+j+"]="+encodeURIComponent(url);
 						j++;
 					} else {
-						alert('<?php echo $LNG->FORM_LINK_INVALID_PART1; ?>'+url+'<?php echo $LNG->FORM_LINK_INVALID_PART2; ?>');
+						alert("<?php echo $LNG->FORM_LINK_INVALID_PART1; ?>"+url+"<?php echo $LNG->FORM_LINK_INVALID_PART2; ?>");
 						return;
 					}
 				} else {
 					// to delete existing
-
 					reqUrl += "&resources["+j+"]=";
 					resource.remove();
 					resourcesArray = document.getElementsByName('argumentlinkedit'+uniQ+'[]');
@@ -1429,16 +1428,16 @@ function promptForArgument(node, uniQ, type, nodetype, actiontype, includeUser, 
 
 	var heading = new Element('h2', {});
 	if (type == "pro") {
-		heading.insert('<?php echo $LNG->DEBATE_VOTE_ARGUMENT_MESSAGE_PRO; ?>');
+		heading.insert("<?php echo $LNG->DEBATE_VOTE_ARGUMENT_MESSAGE_PRO; ?>");
 	} else {
-		heading.insert('<?php echo $LNG->DEBATE_VOTE_ARGUMENT_MESSAGE_CON; ?>');
+		heading.insert("<?php echo $LNG->DEBATE_VOTE_ARGUMENT_MESSAGE_CON; ?>");
 	}
 
 	var heading2 = new Element('h2', {'style':'font-size:11pt;margin:0px;padding-bottom:0px'});
-	heading2.insert('<?php echo $LNG->DEBATE_VOTE_ARGUMENT_PLACEHOLDER; ?>');
+	heading2.insert("<?php echo $LNG->DEBATE_VOTE_ARGUMENT_PLACEHOLDER; ?>");
 
 	var textarea1 = new Element('textarea', {'id':'messagetextarea','rows':'6','style':'color: black; width:300px; border: 1px solid gray; padding: 3px; padding-top:0px;overflow:hidden;z-index:200;margin-top:0px;'});
-	var buttonOK = new Element('input', { 'style':'clear: both;margin-top: 5px; font-size: 8pt', 'type':'button', 'value':'<?php echo $LNG->FORM_BUTTON_SAVE; ?>'});
+	var buttonOK = new Element('input', { 'style':'clear: both;margin-top: 5px; font-size: 8pt', 'type':'button', 'value':"<?php echo $LNG->FORM_BUTTON_SAVE; ?>"});
 	Event.observe(buttonOK,'click', function() {
 		var name = textarea1.value;
 		if (name != "") {
@@ -1448,7 +1447,7 @@ function promptForArgument(node, uniQ, type, nodetype, actiontype, includeUser, 
 		$('prompttext').update("");
 	});
 
-	var buttonCancel = new Element('input', { 'style':'margin-left: 5px; margin-top: 5px; font-size: 8pt', 'type':'button', 'value':'<?php echo $LNG->FORM_BUTTON_CANCEL; ?>'});
+	var buttonCancel = new Element('input', { 'style':'margin-left: 5px; margin-top: 5px; font-size: 8pt', 'type':'button', 'value':"<?php echo $LNG->FORM_BUTTON_CANCEL; ?>"});
 	Event.observe(buttonCancel,'click', function() {
 		$('prompttext').style.display = "none";
 		$('prompttext').update("");
@@ -1584,7 +1583,7 @@ function addExploreNode(parentnode, nodetypename, linktypename, name, desc, type
 						reqUrl += "&resources["+j+"]="+encodeURIComponent(url);
 						j++;
 					} else {
-						alert('<?php echo $LNG->FORM_LINK_INVALID_PART1; ?>'+url+'<?php echo $LNG->FORM_LINK_INVALID_PART2; ?>');
+						alert("<?php echo $LNG->FORM_LINK_INVALID_PART1; ?>"+url+"<?php echo $LNG->FORM_LINK_INVALID_PART2; ?>");
 						return;
 					}
 				}
@@ -1646,15 +1645,15 @@ function addExploreNode(parentnode, nodetypename, linktypename, name, desc, type
 					refreshSolutions();
 				} else if (type == 'comment') {
 					$('commentslist'+uniQ).loaded = 'false';
-					loadChildComments('commentslist'+uniQ, parentnode.nodeid, '<?php echo $LNG->COMMENTS_NAME; ?>', linktypename, nodetypename, parentnode.parentid, parentnode.groupid, uniQ, $('count-comment'+uniQ), actiontype, status);
+					loadChildComments('commentslist'+uniQ, parentnode.nodeid, "<?php echo $LNG->COMMENTS_NAME; ?>", linktypename, nodetypename, parentnode.parentid, parentnode.groupid, uniQ, $('count-comment'+uniQ), actiontype, status);
 					recalculatePeople();
 				} else if (type == 'con') {
 					$('counterkidsdiv'+uniQ).loaded = 'false';
-					loadChildArguments('counterkidsdiv'+uniQ, parentnode.nodeid, '<?php echo $LNG->CONS_NAME; ?>', linktypename, nodetypename, parentnode.parentid, parentnode.groupid, uniQ, $('count-counter'+uniQ), actiontype, status, $('votebardiv'+uniQ));
+					loadChildArguments('counterkidsdiv'+uniQ, parentnode.nodeid, "<?php echo $LNG->CONS_NAME; ?>", linktypename, nodetypename, parentnode.parentid, parentnode.groupid, uniQ, $('count-counter'+uniQ), actiontype, status, $('votebardiv'+uniQ));
 					recalculatePeople();
 				} else if (type == 'pro') {
 					$('supportkidsdiv'+uniQ).loaded = 'false';
-					loadChildArguments('supportkidsdiv'+uniQ, parentnode.nodeid, '<?php echo $LNG->PROS_NAME; ?>', linktypename, nodetypename, parentnode.parentid, parentnode.groupid, uniQ, $('count-support'+uniQ), actiontype, status, $('votebardiv'+uniQ));
+					loadChildArguments('supportkidsdiv'+uniQ, parentnode.nodeid, "<?php echo $LNG->PROS_NAME; ?>", linktypename, nodetypename, parentnode.parentid, parentnode.groupid, uniQ, $('count-support'+uniQ), actiontype, status, $('votebardiv'+uniQ));
 					recalculatePeople();
 				}
 
@@ -2034,7 +2033,7 @@ function displaySortForm(sortOpts,args,tab,handler){
         	opt.selected = true;
         }
     }
-    var sortBys = {ASC: '<?php echo $LNG->SORT_ASC; ?>', DESC: '<?php echo $LNG->SORT_DESC; ?>'};
+    var sortBys = {ASC: "<?php echo $LNG->SORT_ASC; ?>", DESC: "<?php echo $LNG->SORT_DESC; ?>"};
     var sortBy = new Element("select");
  	Event.observe(sortBy,'change',handler);
     sortBy.id = "select-sort-"+tab;
@@ -2058,7 +2057,7 @@ function displaySortForm(sortOpts,args,tab,handler){
 
 function lemondragstart(e) {
 	if (parseInt($('lemonbasketcount').innerHTML) <= 0) {
-		alert('<?php echo $LNG->LEMONING_COUNT_FINISHED; ?>');
+		alert("<?php echo $LNG->LEMONING_COUNT_FINISHED; ?>");
 	} else {
 		e.dataTransfer.setData("text", e.target.id);
 		e.dataTransfer.effectAllowed = "copy";

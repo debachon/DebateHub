@@ -762,10 +762,10 @@ function renderIssueNode(width, height, node, uniQ, role, includeUser, type, inc
 	// IF OWNER ADD EDIT / DEL ACTIONS
 	if (type == "active") {
 		if (USER == user.userid) {
-			var edit = new Element('img',{'style':'float:left;cursor: pointer;','alt':"<?php echo $LNG->EDIT_BUTTON_TEXT;?>", 'title': '<?php echo $LNG->EDIT_BUTTON_HINT_ISSUE;?>', 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("edit.png"); ?>'explore});
+			var edit = new Element('img',{'style':'float:left;cursor: pointer;','alt':"<?php echo $LNG->EDIT_BUTTON_TEXT;?>", 'title': "<?php echo $LNG->EDIT_BUTTON_HINT_ISSUE;?>", 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("edit.png"); ?>'});
 			Event.observe(edit,'click',function (){loadDialog('editissue',URL_ROOT+"ui/popups/issueedit.php?nodeid="+node.nodeid, 770,550)});
 			toolbarDiv.insert(edit);
-			var del = new Element('img',{'id':'deletebutton'+uniQ,'style':'float:left;padding-left:5px;margin-right: 10px', 'alt':"<?php echo $LNG->NO_DELETE_BUTTON_ALT;?>', 'title': '<?php echo $LNG->NO_DELETE_BUTTON_HINT;?>', 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("delete-off.png"); ?>"});
+			var del = new Element('img',{'id':'deletebutton'+uniQ,'style':'float:left;padding-left:5px;margin-right: 10px', 'alt':"<?php echo $LNG->NO_DELETE_BUTTON_ALT;?>", 'title': "<?php echo $LNG->NO_DELETE_BUTTON_HINT;?>", 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("delete-off.png"); ?>'});
 			toolbarDiv.insert(del);
 			if (node.connectedness == 0) {
 				var deletename = node.name;
@@ -1489,14 +1489,14 @@ function renderIdeaList(node, uniQ, role, includeUser, type, status, i){
 		var del;
 		if (!node.otheruserconnections || node.otheruserconnections === 0) {
 			var deletename = node.name;
-			del = new Element('img',{'style':'float:left;cursor: pointer;padding-left:5px;padding-top:5px;','alt':"<?php echo $LNG->DELETE_BUTTON_ALT;?>', 'title': '<?php echo $LNG->DELETE_BUTTON_HINT;?>', 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("delete.png"); ?>"});
+			del = new Element('img',{'style':'float:left;cursor: pointer;padding-left:5px;padding-top:5px;','alt':"<?php echo $LNG->DELETE_BUTTON_ALT;?>", 'title': "<?php echo $LNG->DELETE_BUTTON_HINT;?>", 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("delete.png"); ?>'});
 			Event.observe(del,'click',function (){
 				var callback = function () { refreshSolutions(); };
 				deleteNode(node.nodeid, deletename, role.name, callback);
 			});
 			textDiv.insert(del);
 		} else {
-			del = new Element('img',{'style':'width:14px;height:14px;padding-left:10px;float:left;padding-top:5px;', 'alt':"<?php echo $LNG->NO_DELETE_BUTTON_ALT;?>', 'title': '<?php echo $LNG->NO_DELETE_BUTTON_HINT;?>', 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("delete-off.png"); ?>"});
+			del = new Element('img',{'style':'width:14px;height:14px;padding-left:10px;float:left;padding-top:5px;', 'alt':"<?php echo $LNG->NO_DELETE_BUTTON_ALT;?>", 'title': "<?php echo $LNG->NO_DELETE_BUTTON_HINT;?>", 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("delete-off.png"); ?>'});
 			textDiv.insert(del);
 		}
 	}
@@ -2659,7 +2659,7 @@ function renderArgumentNode(node, uniQ, role, includeUser, type, status){
 			'class':'imagebuttonfaded',
 			'style':'padding-left:10px',
 			'src':'<?php echo $HUB_FLM->getImagePath("edit.png"); ?>',
-			'title':"<?php echo $LNG->NODE_EDIT_SOLUTION_ICON_HINT; ?>",
+			'title':"<?php echo $LNG->NODE_EDIT_SOLUTION_ICON_HINT; ?>"
 		});
 		textDiv.insert(editbutton);
 		Event.observe(editbutton,'click',function (){
@@ -2672,16 +2672,16 @@ function renderArgumentNode(node, uniQ, role, includeUser, type, status){
 		});
 
 		var deletename = node.name;
-		var del = new Element('img',{'style':'cursor: pointer;padding-left:5px;','alt':"<?php echo $LNG->DELETE_BUTTON_ALT;?>', 'title': '<?php echo $LNG->DELETE_BUTTON_HINT;?>', 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("delete.png"); ?>"});
+		var del = new Element('img',{'style':'cursor: pointer;padding-left:5px;','alt':"<?php echo $LNG->DELETE_BUTTON_ALT;?>", 'title': "<?php echo $LNG->DELETE_BUTTON_HINT;?>", 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("delete.png"); ?>'});
 		Event.observe(del,'click',function (){
 			var callback = function () {
 				if (role.name == "Con") {
 					$('counterkidsdiv'+node.parentuniq).loaded = 'false';
-					loadChildArguments('counterkidsdiv'+node.parentuniq, node.parentid, "<?php echo $LNG->CONS_NAME; ?>', '<?php echo $CFG->LINK_CON_SOLUTION; ?>", 'Con', node.parentid, node.groupid, node.parentuniq, $('count-counter'+node.parentuniq), type, status, $('votebardiv'+node.parentuniq));
+					loadChildArguments('counterkidsdiv'+node.parentuniq, node.parentid, "<?php echo $LNG->CONS_NAME; ?>", "<?php echo $CFG->LINK_CON_SOLUTION; ?>", 'Con', node.parentid, node.groupid, node.parentuniq, $('count-counter'+node.parentuniq), type, status, $('votebardiv'+node.parentuniq));
 					refreshStats();
 				} else if (role.name == 'Pro') {
 					$('supportkidsdiv'+node.parentuniq).loaded = 'false';
-					loadChildArguments('supportkidsdiv'+node.parentuniq, node.parentid, "<?php echo $LNG->PROS_NAME; ?>', '<?php echo $CFG->LINK_PRO_SOLUTION; ?>", 'Pro', node.parentid, node.groupid, node.parentuniq, $('count-support'+node.parentuniq), type, status, S('votebardiv'+node.parentuniq));
+					loadChildArguments('supportkidsdiv'+node.parentuniq, node.parentid, "<?php echo $LNG->PROS_NAME; ?>", "<?php echo $CFG->LINK_PRO_SOLUTION; ?>", 'Pro', node.parentid, node.groupid, node.parentuniq, $('count-support'+node.parentuniq), type, status, S('votebardiv'+node.parentuniq));
 					refreshStats();
 				}
 			}
