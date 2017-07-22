@@ -37,7 +37,7 @@ echo "<center><h1>Load default data</h1></center>";
 
 $dirAddressUploads = '';
 
-$databaseaddress = 'localhost'; // mostlty this will be 'localhost' depsning where you database is.
+$databaseaddress = 'localhost'; // usually 'localhost', depending where you database is.
 $databaseuser = '';
 $databasepass = '';
 $databasename = '';
