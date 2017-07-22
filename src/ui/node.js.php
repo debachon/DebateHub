@@ -3254,7 +3254,7 @@ function renderCommentNode(node, uniQ, role, includeUser, type, status){
 		});
 
 		var deletename = node.name;
-		var del = new Element('img',{'style':'cursor: pointer;padding-left:5px;margin-top:5px;','alt':"<?php echo $LNG->DELETE_BUTTON_ALT;?>', 'title': '<?php echo $LNG->DELETE_BUTTON_HINT;?>', 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("delete.png"); ?>"});
+		var del = new Element('img',{'style':'cursor: pointer;padding-left:5px;margin-top:5px;','alt':"<?php echo $LNG->DELETE_BUTTON_ALT;?>", 'title': "<?php echo $LNG->DELETE_BUTTON_HINT;?>", 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("delete.png"); ?>'});
 		Event.observe(del,'click',function (){
 			var callback = function () {
 				$('commentslist'+node.parentuniq).loaded = 'false';
