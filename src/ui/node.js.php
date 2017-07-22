@@ -762,7 +762,7 @@ function renderIssueNode(width, height, node, uniQ, role, includeUser, type, inc
 	// IF OWNER ADD EDIT / DEL ACTIONS
 	if (type == "active") {
 		if (USER == user.userid) {
-			var edit = new Element('img',{'style':'float:left;cursor: pointer;','alt':"<?php echo $LNG->EDIT_BUTTON_TEXT;?>', 'title': '<?php echo $LNG->EDIT_BUTTON_HINT_ISSUE;?>', 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("edit.png"); ?>"});
+			var edit = new Element('img',{'style':'float:left;cursor: pointer;','alt':"<?php echo $LNG->EDIT_BUTTON_TEXT;?>", 'title': '<?php echo $LNG->EDIT_BUTTON_HINT_ISSUE;?>', 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("edit.png"); ?>'explore});
 			Event.observe(edit,'click',function (){loadDialog('editissue',URL_ROOT+"ui/popups/issueedit.php?nodeid="+node.nodeid, 770,550)});
 			toolbarDiv.insert(edit);
 			var del = new Element('img',{'id':'deletebutton'+uniQ,'style':'float:left;padding-left:5px;margin-right: 10px', 'alt':"<?php echo $LNG->NO_DELETE_BUTTON_ALT;?>', 'title': '<?php echo $LNG->NO_DELETE_BUTTON_HINT;?>', 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("delete-off.png"); ?>"});
@@ -1486,18 +1486,17 @@ function renderIdeaList(node, uniQ, role, includeUser, type, status, i){
 			editInline(uniQ, 'idea');
 		});
 
+		var del;
 		if (!node.otheruserconnections || node.otheruserconnections === 0) {
 			var deletename = node.name;
-			var del = new Element('img',{'style':'float:left;cursor: pointer;padding-left:5px;padding-top:5px;','alt':"<?php echo $LNG->DELETE_BUTTON_ALT;?>', 'title': '<?php echo $LNG->DELETE_BUTTON_HINT;?>', 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("delete.png"); ?>"});
+			del = new Element('img',{'style':'float:left;cursor: pointer;padding-left:5px;padding-top:5px;','alt':"<?php echo $LNG->DELETE_BUTTON_ALT;?>', 'title': '<?php echo $LNG->DELETE_BUTTON_HINT;?>', 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("delete.png"); ?>"});
 			Event.observe(del,'click',function (){
-				var callback = function () {
-					refreshSolutions();
-				}
+				var callback = function () { refreshSolutions(); };
 				deleteNode(node.nodeid, deletename, role.name, callback);
 			});
 			textDiv.insert(del);
 		} else {
-			var del = new Element('img',{'style':'width:14px;height:14px;padding-left:10px;float:left;padding-top:5px;', 'alt':"<?php echo $LNG->NO_DELETE_BUTTON_ALT;?>', 'title': '<?php echo $LNG->NO_DELETE_BUTTON_HINT;?>', 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("delete-off.png"); ?>"});
+			del = new Element('img',{'style':'width:14px;height:14px;padding-left:10px;float:left;padding-top:5px;', 'alt':"<?php echo $LNG->NO_DELETE_BUTTON_ALT;?>', 'title': '<?php echo $LNG->NO_DELETE_BUTTON_HINT;?>', 'border':'0','src': '<?php echo $HUB_FLM->getImagePath("delete-off.png"); ?>"});
 			textDiv.insert(del);
 		}
 	}
