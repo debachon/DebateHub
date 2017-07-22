@@ -315,10 +315,10 @@ function toggleDiv(div) {
 function toggleArrowDiv(div, arrow) {
 	if ( $(div).style.display == "block") {
 		$(div).style.display = "none";
-		$(arrow).src='<?php echo $HUB_FLM->getImagePath("arrow-down-blue.png"); ?>';
+		$(arrow).src="<?php echo $HUB_FLM->getImagePath("arrow-down-blue.png"); ?>";
 	} else {
 		$(div).style.display = "block";
-		$(arrow).src='<?php echo $HUB_FLM->getImagePath("arrow-up-blue.png"); ?>';
+		$(arrow).src="<?php echo $HUB_FLM->getImagePath("arrow-up-blue.png"); ?>";
 	}
 }
 
@@ -445,20 +445,20 @@ function showGlobalHint(type,evt,panelName) {
 	$('globalMessage').innerHTML="";
 
 	if (type == "MainSearch") {
-		var text = '<?php echo addslashes($LNG->HEADER_SEARCH_INFO_HINT); ?>';
+		var text = "<?php echo addslashes($LNG->HEADER_SEARCH_INFO_HINT); ?>";
 		$('globalMessage').insert(text);
 	} else if (type == "StatsOverviewParticipation") {
-		$("globalMessage").insert('<?php echo $LNG->STATS_OVERVIEW_HEALTH_PARTICIPATION_HINT; ?>');
+		$("globalMessage").insert("<?php echo $LNG->STATS_OVERVIEW_HEALTH_PARTICIPATION_HINT; ?>");
 	} else if (type == "StatsOverviewViewing") {
-		$("globalMessage").insert('<?php echo $LNG->STATS_OVERVIEW_HEALTH_VIEWING_HINT; ?>');
+		$("globalMessage").insert("<?php echo $LNG->STATS_OVERVIEW_HEALTH_VIEWING_HINT; ?>");
 	} else if (type == "StatsOverviewDebate") {
-		$("globalMessage").insert('<?php echo $LNG->STATS_OVERVIEW_HEALTH_CONTRIBUTION_HINT; ?>');
+		$("globalMessage").insert("<?php echo $LNG->STATS_OVERVIEW_HEALTH_CONTRIBUTION_HINT; ?>");
 	} else if (type == "StatsDebateContribution") {
-		$("globalMessage").insert('<?php echo $LNG->STATS_DEBATE_CONTRIBUTION_HELP; ?>');
+		$("globalMessage").insert("<?php echo $LNG->STATS_DEBATE_CONTRIBUTION_HELP; ?>");
 	} else if (type == "StatsDebateViewing") {
-		$("globalMessage").insert('<?php echo $LNG->STATS_DEBATE_VIEWING_HELP; ?>');
+		$("globalMessage").insert("<?php echo $LNG->STATS_DEBATE_VIEWING_HELP; ?>");
 	} else if (type == 'PendingMember') {
-		$("globalMessage").insert('<?php echo $LNG->GROUP_JOIN_REQUEST_MESSAGE; ?>');
+		$("globalMessage").insert("<?php echo $LNG->GROUP_JOIN_REQUEST_MESSAGE; ?>");
 	}
 
 	showHint(event, panelName, 10, -10);
@@ -653,14 +653,14 @@ function radioEvidencePrompt(focalnodeid, filternodetypes, focalnodeend, handler
 
 	$('prompttext').insert("<br />");
 
-    var buttonOK = new Element('input', { 'style':'clear: both;margin-top: 5px; font-size: 8pt', 'type':'button', 'value':'<?php echo $LNG->FORM_BUTTON_CONTINUE; ?>'});
+    var buttonOK = new Element('input', { 'style':'clear: both;margin-top: 5px; font-size: 8pt', 'type':'button', 'value':"<?php echo $LNG->FORM_BUTTON_CONTINUE; ?>"});
 	Event.observe(buttonOK,'click', function() {
 		var valuechosen = $('radiopromptchoice').value;
 		eval( refresher + '("'+focalnodeid+'","'+filternodetypes+'","'+focalnodeend+'","'+handler+'","'+key+'","'+nodetofocusid+'","'+valuechosen+'")' );
 		textAreaCancel();
 	});
 
-    var buttonCancel = new Element('input', { 'style':'margin-left: 5px; margin-top: 5px; font-size: 8pt', 'type':'button', 'value':'<?php echo $LNG->FORM_BUTTON_CANCEL; ?>'});
+    var buttonCancel = new Element('input', { 'style':'margin-left: 5px; margin-top: 5px; font-size: 8pt', 'type':'button', 'value':"<?php echo $LNG->FORM_BUTTON_CANCEL; ?>"});
 	Event.observe(buttonCancel,'click', textAreaCancel);
 
 	$('prompttext').insert(buttonOK);
@@ -696,14 +696,14 @@ function textAreaPrompt(messageStr, text, connid, handler, refresher, width, hei
 	textarea1.value=text;
 
 	if (connid != "") {
-		var buttonOK = new Element('input', { 'style':'clear: both;margin-top: 5px; font-size: 8pt', 'type':'button', 'value':'<?php echo $LNG->FORM_BUTTON_PUBLISH; ?>'});
+		var buttonOK = new Element('input', { 'style':'clear: both;margin-top: 5px; font-size: 8pt', 'type':'button', 'value':"<?php echo $LNG->FORM_BUTTON_PUBLISH; ?>"});
 		Event.observe(buttonOK,'click', function() {
 			eval( refresher + '("'+connid+'","'+textarea1.value+'","'+handler+'")' );
 			textAreaCancel();
 		});
 	}
 
-    var buttonCancel = new Element('input', { 'style':'margin-left: 5px; margin-top: 5px; font-size: 8pt', 'type':'button', 'value':'<?php echo $LNG->FORM_BUTTON_CANCEL; ?>'});
+    var buttonCancel = new Element('input', { 'style':'margin-left: 5px; margin-top: 5px; font-size: 8pt', 'type':'button', 'value':"<?php echo $LNG->FORM_BUTTON_CANCEL; ?>"});
 	Event.observe(buttonCancel,'click', textAreaCancel);
 
 	$('prompttext').insert('<h2>'+messageStr+'</h2>');
@@ -945,7 +945,7 @@ function addConnectionToNetworkMap(c, map) {
 
 /**
  * Get the language version of the link label that should be displayed to the users.
- * Allows for local varients and internationalization.
+ * Allows for local variants and internationalization.
  */
 function getLinkLabelName(fromNodeTypeName, toNodeTypeName, linkName) {
 
@@ -1089,8 +1089,8 @@ function switchCKEditorMode(link, divname, editorname) {
 		} );
 
 		$(divname).style.clear = 'both';
-		link.innerHTML = '<?php echo $LNG->FORM_DESC_PLAIN_TEXT_LINK; ?>'
-		link.title = '<?php echo $LNG->FORM_DESC_PLAIN_TEXT_HINT; ?>';
+		link.innerHTML = "<?php echo $LNG->FORM_DESC_PLAIN_TEXT_LINK; ?>";
+		link.title = "<?php echo $LNG->FORM_DESC_PLAIN_TEXT_HINT; ?>";
 	} else {
 		var ans = confirm("<?php echo $LNG->FORM_DESC_HTML_SWITCH_WARNING; ?>");
 		if (ans == true) {
@@ -1098,8 +1098,8 @@ function switchCKEditorMode(link, divname, editorname) {
 				CKEDITOR.instances[editorname].destroy();
 			}
 			$(divname).style.clear = 'none';
-			link.innerHTML = '<?php echo $LNG->FORM_DESC_HTML_TEXT_LINK; ?>';
-			link.title = '<?php echo $LNG->FORM_DESC_HTML_TEXT_HINT; ?>';
+			link.innerHTML = "<?php echo $LNG->FORM_DESC_HTML_TEXT_LINK; ?>";
+			link.title = "<?php echo $LNG->FORM_DESC_HTML_TEXT_HINT; ?>";
 			$(editorname).value = removeHTMLTags($(editorname).value);
 		}
 	}
@@ -1537,7 +1537,7 @@ function loadAlertsData(args, nodealertDiv, useralertDiv, alertmessagearea, issu
 						countspan.insert("("+k+")");
 						if (k>ALERT_COUNT) {
 							var morebutton = new Element('div', {'class':'active','style':'color:#A6156C;margin-top:5px;margin-bottom:10px;'});
-							morebutton.insert('<?php echo $LNG->ALERT_SHOW_ALL; ?>');
+							morebutton.insert("<?php echo $LNG->ALERT_SHOW_ALL; ?>");
 							morebutton.alerttype = alerttype;
 							Event.observe(morebutton,"click", function(){
 								toggleAlertPosts(this, this.alerttype);
@@ -1659,10 +1659,10 @@ function toggleAlertPosts(obj, alerttype) {
 		var item = items[i];
 		if (item.style.display == 'none') {
 			item.style.display = 'block';
-			obj.update('<?php echo $LNG->ALERT_SHOW_LESS; ?>');
+			obj.update("<?php echo $LNG->ALERT_SHOW_LESS; ?>");
 		} else {
 			item.style.display = 'none';
-			obj.update('<?php echo $LNG->ALERT_SHOW_ALL; ?>');
+			obj.update("<?php echo $LNG->ALERT_SHOW_ALL; ?>");
 		}
 	}
 }
