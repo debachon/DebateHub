@@ -31,25 +31,25 @@
  */
 
 /** HEADERS **/
-$LNG->HEADER_LOGO_HINT = 'Go to the '.$CFG->SITE_TITLE.' page d'Accueil';
+$LNG->HEADER_LOGO_HINT = "Aller à la page d'Accueil du ".$CFG->SITE_TITLE.".";
 $LNG->HEADER_LOGO_ALT = $CFG->SITE_TITLE.' Logo';
-$LNG->HEADER_HOME_ICON_HINT = 'Revenir à la page d'Accueil';
-$LNG->HEADER_HOME_ICON_ALT = 'Icone Accueil';
+$LNG->HEADER_HOME_ICON_HINT = "Revenir à la page d'Accueil";
+$LNG->HEADER_HOME_ICON_ALT = "Icone accueil";
 $LNG->HEADER_RSS_FEED_ICON_HINT = 'Prendre un flux RSS pour '.$CFG->SITE_TITLE.'. Note: each '.$LNG->ISSUE_NAME.' a aussi son propre flux.';
 $LNG->HEADER_RSS_FEED_ICON_ALT = 'Icone RSS';
-$LNG->HEADER_USER_HOME_LINK_HINT = 'Aller à votre page d'Accueil';
-$LNG->HEADER_EDIT_PROFILE_LINK_TEXT = 'Editer votre profil';
-$LNG->HEADER_EDIT_PROFILE_LINK_HINT = 'Edit les informations de votre profil';
+$LNG->HEADER_USER_HOME_LINK_HINT = "Aller à votre page d'Accueil";
+$LNG->HEADER_EDIT_PROFILE_LINK_TEXT = 'Éditer votre profil';
+$LNG->HEADER_EDIT_PROFILE_LINK_HINT = 'Éditer les informations de votre profil';
 $LNG->HEADER_SIGN_OUT_LINK_TEXT = 'Déconnexion';
 $LNG->HEADER_SIGN_OUT_LINK_HINT = 'Déconnexion';
 $LNG->HEADER_SIGN_IN_LINK_TEXT = 'Connexion';
 $LNG->HEADER_SIGN_IN_LINK_HINT = 'Connexion';
-$LNG->HEADER_SIGNUP_OPEN_LINK_TEXT = 'S'enregistrer';
-$LNG->HEADER_SIGNUP_OPEN_LINK_HINT = 'S'enregistrer instantanément pour se connextion et ajouter des informations';
-$LNG->HEADER_SIGNUP_REQUEST_LINK_TEXT = 'S'enregistrer';
-$LNG->HEADER_SIGNUP_REQUEST_LINK_HINT = 'Demander un compte pour s'inscrire et ajouter des données';
+$LNG->HEADER_SIGNUP_OPEN_LINK_TEXT = "S'enregistrer";
+$LNG->HEADER_SIGNUP_OPEN_LINK_HINT = "S'enregistrer instantanément pour se connextion et ajouter des informations";
+$LNG->HEADER_SIGNUP_REQUEST_LINK_TEXT = 'S\'enregistrer';
+$LNG->HEADER_SIGNUP_REQUEST_LINK_HINT = 'Demander un compte pour s\'inscrire et ajouter des données';
 $LNG->HEADER_HELP_PAGE_LINK_TEXT = 'Aide';
-$LNG->HEADER_HELP_PAGE_LINK_HINT = 'Aller à la page d'aide';
+$LNG->HEADER_HELP_PAGE_LINK_HINT = 'Aller à la page d\'aide';
 $LNG->HEADER_ABOUT_PAGE_LINK_TEXT = 'À propos';
 $LNG->HEADER_ABOUT_PAGE_LINK_HINT = 'Aller à la page à propos';
 $LNG->HEADER_ADMIN_PAGE_LINK_TEXT = 'Administrateur';
@@ -64,7 +64,7 @@ $LNG->HEADER_SEARCH_INFO_HINT .= "<br><br>Use a '+' between words is you wish to
 $LNG->HEADER_SEARCH_INFO_HINT .= "<br><br>Use double quotes around the search string to perform a phrase search, e.g. <b>\"school system\"</b> will search for the <b>exact phrase 'school system'</b> in either the item title, item description or any associated web clip texts.</div>";
 
 /** FOOTER **/
-$LNG->FOOTER_TERMS_LINK = 'Termes et conditions d'utilisation';
+$LNG->FOOTER_TERMS_LINK = 'Termes et conditions d\'utilisation';
 $LNG->FOOTER_PRIVACY_LINK = 'Confidentialité';
 $LNG->FOOTER_CONTACT_LINK = 'Contact';
 
@@ -88,7 +88,7 @@ $LNG->DEBATE_CREATE_LOGGED_OUT_CLOSED = "pour créer un nouveau ".$LNG->DEBATE_N
 
 $LNG->SOLUTION_CREATE_LOGGED_OUT_OPEN = "pour contribuer à ".$LNG->DEBATE_NAME;
 $LNG->SOLUTION_CREATE_LOGGED_OUT_REQUEST = "pour contribuer à: ".$LNG->DEBATE_NAME;
-$LNG->SOLUTION_CREATE_LOGGED_OUT_CLOSED = pour contribuer à: ".$LNG->DEBATE_NAME;
+$LNG->SOLUTION_CREATE_LOGGED_OUT_CLOSED = "pour contribuer à: ".$LNG->DEBATE_NAME;
 
 /** GROUPS **/
 $LNG->FORM_BUTTON_DELETE_GROUP = 'Supprimer '.$LNG->GROUP_NAME;
@@ -123,8 +123,8 @@ $LNG->GROUP_FORM_WEBSITE = "Site web:";
 $LNG->GROUP_FORM_MEMBERS_CURRENT = "Membres actuels:";
 
 $LNG->GROUP_FORM_SELECT = "Sélectionner un(e) ".$LNG->GROUP_NAME;
-$LNG->GROUP_FORM_NO_MEMBERS = 'Cela '.$LNG->GROUP_NAME.' n'a pas de membres.';
-$LNG->GROUP_FORM_NO_PENDING = 'Ce '.$LNG->GROUP_NAME.' n'a pas de requêtes de membres.';
+$LNG->GROUP_FORM_NO_MEMBERS = 'Cela '.$LNG->GROUP_NAME.' n\'a pas de membres.';
+$LNG->GROUP_FORM_NO_PENDING = 'Ce '.$LNG->GROUP_NAME.' n\'a pas de requêtes de membres.';
 $LNG->GROUP_FORM_MEMBERS_PENDING = "Requête:";
 $LNG->GROUP_FORM_NAME_LABEL = "Nom";
 $LNG->GROUP_FORM_DESC_LABEL = "Description";
@@ -136,19 +136,19 @@ $LNG->GROUP_FORM_REMOVE_MESSAGE_PART1 = 'Êtes vous sûr de supprimer? ';
 $LNG->GROUP_FORM_REMOVE_MESSAGE_PART2 = 'de ca '.$LNG->GROUP_NAME.'?';
 $LNG->GROUP_FORM_REJECT_MESSAGE_PART1 = 'Êtes vous sûr de vouloir rejeter';
 $LNG->GROUP_FORM_REJECT_MESSAGE_PART2 = 'comme un membre de '.$LNG->GROUP_NAME.'?';
-$LNG->GROUP_FORM_APPROVE_MESSAGE_PART1 = 'Êtes vous sure d'approuver';
+$LNG->GROUP_FORM_APPROVE_MESSAGE_PART1 = 'Êtes vous sure d\'approuver';
 $LNG->GROUP_FORM_APPROVE_MESSAGE_PART2 = 'Pour être un membre de '.$LNG->GROUP_NAME.'?';
 $LNG->GROUP_FORM_IS_JOINING_OPEN_LABEL = 'Est '.$LNG->GROUP_NAME.' joining open?';
-$LNG->GROUP_FORM_IS_JOINING_OPEN_HELP = 'Sélectionner la case si vous voulez que les utilisateurs décident de rejoindre leur groupe par eux même.' <br> Ne pas sélectionner la case si vous souhaitez modérer les demandes de joindre le groupe et ainsi controler qui peur rejoindre le groupe.';
+$LNG->GROUP_FORM_IS_JOINING_OPEN_HELP = 'Sélectionner la case si vous voulez que les utilisateurs décident de rejoindre leur groupe par eux même. <br> Ne pas sélectionner la case si vous souhaitez modérer les demandes de joindre le groupe et ainsi controler qui peur rejoindre le groupe.';
 
-$LNG->GROUP_JOIN_REQUEST_MESSAGE = 'Votre requête pour joindre cet(te) '.$LNG->GROUP_NAME.' a été enregistré et est en attente d'approbation. Vous recevrez un email quand votre requête aura été traitée.<br><br>Merci pour votre intérêt '.$LNG->GROUP_NAME;
+$LNG->GROUP_JOIN_REQUEST_MESSAGE = 'Votre requête pour joindre cet(te) '.$LNG->GROUP_NAME.' a été enregistré et est en attente d\'approbation. Vous recevrez un email quand votre requête aura été traitée.<br><br>Merci pour votre intérêt '.$LNG->GROUP_NAME;
 $LNG->GROUP_JOIN_PENDING_MESSAGE = 'Adhésion en cours de traitement';
-$LNG->GROUP_MY_ADMIN_GROUPS_TITLE = $LNG->GROUPS_NAME.' J'administre:';
+$LNG->GROUP_MY_ADMIN_GROUPS_TITLE = $LNG->GROUPS_NAME.' J\'administre:';
 $LNG->GROUP_MY_MEMBER_GROUPS_TITLE = $LNG->GROUPS_NAME.' Je suis un membre de:';
 
 $LNG->GROUP_FORM_SELECT = "Sélectionner un(e) ".$LNG->GROUP_NAME;
-$LNG->GROUP_FORM_NO_MEMBERS = 'Ceci '.$LNG->GROUP_NAME.' n'a pas de membres.';
-$LNG->GROUP_FORM_NO_PENDING = 'Ceci '.$LNG->GROUP_NAME.' n'a pas de requêtes de membre à traiter.';
+$LNG->GROUP_FORM_NO_MEMBERS = 'Ceci '.$LNG->GROUP_NAME.' n\'a pas de membres.';
+$LNG->GROUP_FORM_NO_PENDING = 'Ceci '.$LNG->GROUP_NAME.' n\'a pas de requêtes de membre à traiter.';
 $LNG->GROUP_FORM_MEMBERS_PENDING = "Requêtes de membres pour rejoindre:";
 $LNG->GROUP_FORM_NAME_LABEL = "Nom";
 $LNG->GROUP_FORM_DESC_LABEL = "Description";
@@ -156,20 +156,22 @@ $LNG->GROUP_FORM_ISADMIN_LABEL = "Administrateur";
 $LNG->GROUP_FORM_REMOVE_LABEL = "Supprimer";
 $LNG->GROUP_FORM_APPROVE_LABEL = "Approuver";
 $LNG->GROUP_FORM_REJECT_LABEL = "Rejeter";
-$LNG->GROUP_FORM_REMOVE_MESSAGE_PART1 = 'Êtes vous sûr de vouloir supprimer';
+$LNG->GROUP_FORM_REMOVE_MESSAGE_PART1 = 'Êtes vous sûr⋅e de vouloir supprimer';
 $LNG->GROUP_FORM_REMOVE_MESSAGE_PART2 = 'de ceci '.$LNG->GROUP_NAME.'?';
 $LNG->GROUP_FORM_REJECT_MESSAGE_PART1 = 'êtes';
 $LNG->GROUP_FORM_REJECT_MESSAGE_PART2 = 'as a member of this '.$LNG->GROUP_NAME.'?';
-$LNG->GROUP_FORM_APPROVE_MESSAGE_PART1 = 'Êtes vous sûr(e) de vouloir approuver';
-$LNG->GROUP_FORM_APPROVE_MESSAGE_PART2 = 'pour être un membre de ceci '.$LNG->GROUP_NAME.'?';
-$LNG->GROUP_JOIN_REQUEST_MESSAGE = 'Votre demande pour rejoidre ceci '.$LNG->GROUP_NAME.' a été enregistré et attend d'être approuvé.<br><br> Merci de votre intérêt dans'.$LNG->GROUP_NAME;
+$LNG->GROUP_FORM_APPROVE_MESSAGE_PART1 = 'Êtes vous sûr⋅e de vouloir approuver';
+$LNG->GROUP_FORM_APPROVE_MESSAGE_PART2 = 'pour être un⋅e membre de ce '.$LNG->GROUP_NAME.'?';
+$LNG->GROUP_JOIN_REQUEST_MESSAGE = "Votre demande pour rejoindre ce ".$LNG->GROUP_NAME.
+                                   " a été enregistrée et attend d'être approuvée.<br><br>" .
+                                   "Merci de votre intérêt pour ce ".$LNG->GROUP_NAME;
 $LNG->GROUP_JOIN_PENDING_MESSAGE = 'Adhésion en attente';
 
 $LNG->GROUP_FORM_MEMBERS = "Ajouter Membre:<br/>(comma separated)";
 $LNG->GROUP_FORM_MEMBERS_HELP = "Entrez l'adresse email de tous les utilisateurs que vous souhaitez qu'ils rejoignent ".$LNG->GROUP_NAME.", Un email va être envoyé à toutes ces personnes pour les notifier des adhésions de groupe et tous autres utilisateurs qui n'ont pas déjà un compte seront invités à rejoindre.";
 $LNG->GROUP_FORM_NAME_ERROR = 'Vous devez entrer un nom pour '.$LNG->GROUP_NAME;
-$LNG->GROUP_FORM_NOT_GROUP_ADMIN = 'Vous n'êtes pas un administrateur pour ceci '.$LNG->GROUP_NAME;
-$LNG->GROUP_FORM_NOT_GROUP_ADMIN_ANY = 'Vous n'êtes administrateur pour aucun'.$LNG->GROUPS_NAME;
+$LNG->GROUP_FORM_NOT_GROUP_ADMIN = 'Vous n\'êtes pas un administrateur pour ceci '.$LNG->GROUP_NAME;
+$LNG->GROUP_FORM_NOT_GROUP_ADMIN_ANY = 'Vous n\'êtes administrateur pour aucun'.$LNG->GROUPS_NAME;
 $LNG->GROUP_FORM_LOCATION = 'Localisation: (ville)';
 $LNG->GROUP_FORM_PHOTO = 'Photo';
 $LNG->GROUP_FORM_PHOTO_HELP = '(taille minimum 150px w x 100px h. Les images plus large vont être redimensionnées/recoupées à cette taille)';
@@ -199,7 +201,7 @@ $LNG->GROUP_DEBATE_CREATE_BUTTON = 'Créer nouveau '.$LNG->DEBATE_NAME;
 $LNG->DEBATE_CONTRIBUTE_LINK_TEXT = "Contribuer";
 $LNG->DEBATE_CONTRIBUTE_LINK_HINT = "Contributer un(e) ".$LNG->ARGUMENT_NAME." à ceci ".$LNG->SOLUTION_NAME;
 
-$LNG->ALERT_NO_RESULTS = 'Il n'y a pas d'alertes';
+$LNG->ALERT_NO_RESULTS = 'Il n\'y a pas d\'alertes';
 $LNG->ALERT_CLICK_HIGHLIGHT = 'Cliquer pour surligner dans '.$LNG->ISSUE_NAME;
 $LNG->ALERT_SHOW_ALL = 'montrer tout...';
 $LNG->ALERT_SHOW_LESS = 'montrer moins...';
@@ -212,13 +214,13 @@ $LNG->FORM_IDEA_MERGE_TITLE = "Fusion sélectionnée ".$LNG->SOLUTIONS_NAME;
 $LNG->FORM_IDEA_MERGE_LABEL_TITLE = "Fusionné ".$LNG->SOLUTIONS_NAME." Titre...";
 $LNG->FORM_IDEA_MERGE_LABEL_DESC = "Fusionné ".$LNG->SOLUTIONS_NAME." Description...";
 $LNG->FORM_IDEA_MERGE_HINT = "Créer une nouvelle Idée représentant les Idées sélectionnées. Connecter tous commentaires et arguments dans les idées sélectionnées à cette nouvelle Idée. Ensuite retire les idées sélectionnées. ";
-$LNG->FORM_IDEA_MERGE_MUST_SELECT = 'Vous devez d'abord retirer au moins 2 ideas pour fusionner. ';
+$LNG->FORM_IDEA_MERGE_MUST_SELECT = 'Vous devez d\'abord retirer au moins 2 ideas pour fusionner. ';
 $LNG->FORM_IDEA_MERGE_NO_TITLE = "Vous devez entrer un titre pour le nouveau fusionné ".$LNG->SOLUTION_NAME;
 
-$LNG->FORM_SOLUTION_ENTER_SUMMARY_ERROR = 'Entrez un(e) '.$LNG->SOLUTION_NAME.' avant d'essayer de fusionner';
+$LNG->FORM_SOLUTION_ENTER_SUMMARY_ERROR = 'Entrez un(e) '.$LNG->SOLUTION_NAME.' avant d\'essayer de fusionner';
 
 $LNG->FORM_BUTTON_SUBMIT = 'Soumettre';
-$LNG->FORM_BUTTON_SAVE = 'Enregistrer;
+$LNG->FORM_BUTTON_SAVE = 'Enregistrer';
 $LNG->FORM_BUTTON_SPLIT = 'Diviser';
 $LNG->FORM_BUTTON_SPLIT_HINT = 'Diviser ceci '.$LNG->SOLUTION_NAME.' en deux ou plus '.$LNG->SOLUTIONS_NAME;
 
@@ -228,8 +230,8 @@ $LNG->FORM_SPLIT_IDEA_ERROR = "Vous devez entrer un titre pour les deux premièr
 $LNG->NODE_ADDED_BY = 'Ajouté par:';
 $LNG->NODE_CHILDREN_EVIDENCE_PRO = 'Pour';
 $LNG->NODE_CHILDREN_EVIDENCE_CON = 'Contre';
-$LNG->FORM_PRO_ENTER_SUMMARY_ERROR = 'Entrez un titre pour votre '.$LNG->PRO_NAME.' avant d'essayer de soumettre';
-$LNG->FORM_CON_ENTER_SUMMARY_ERROR = 'Entrez un titre pour votre '.$LNG->CON_NAME.' avant d'essayer de soumettre';
+$LNG->FORM_PRO_ENTER_SUMMARY_ERROR = 'Entrez un titre pour votre '.$LNG->PRO_NAME.' avant d\'essayer de soumettre';
+$LNG->FORM_CON_ENTER_SUMMARY_ERROR = 'Entrez un titre pour votre '.$LNG->CON_NAME.' avant d\'essayer de soumettre';
 
 $LNG->FORM_PRO_LABEL_TITLE = $LNG->PRO_NAME." Titre...";
 $LNG->FORM_PRO_LABEL_DESC = $LNG->PRO_NAME." Description...";
@@ -262,10 +264,10 @@ $LNG->ISSUE_PHASE_REDUCE = 'Réduire';
 $LNG->ISSUE_PHASE_DECIDE= 'Décider';
 $LNG->ISSUE_PHASE_END = 'Terminer';
 
-$LNG->ISSUE_PHASE_DISCUSS_HELP = 'Cette phase est conçue pour discuter de l'actuel '.$LNG->ISSUE_NAME.'. Ajouter '.$LNG->SOLUTIONS_NAME.', '.$LNG->PROS_NAME.' and '.$LNG->CONS_NAME.' en utilisant les questionnaires ci dessous . Cliquez le'.$LNG->ARGUMENTS_NAME.' Lier à '.$LNG->SOLUTIONS_NAME.' pour ajouter/voir '.$LNG->ARGUMENTS_NAME.'.';
-$LNG->ISSUE_PHASE_REDUCE_HELP = 'Cette phase est concue pour réduire la liste des idées. Déplacez les citrons du panier vers les idées que vous aimez le moins. Vous pouvez déplacer 10 citrons, et vous pouvez allouer plus d'un citron à une même idée.';
+$LNG->ISSUE_PHASE_DISCUSS_HELP = 'Cette phase est conçue pour discuter de l\'actuel '.$LNG->ISSUE_NAME.'. Ajouter '.$LNG->SOLUTIONS_NAME.', '.$LNG->PROS_NAME.' and '.$LNG->CONS_NAME.' en utilisant les questionnaires ci dessous . Cliquez le'.$LNG->ARGUMENTS_NAME.' Lier à '.$LNG->SOLUTIONS_NAME.' pour ajouter/voir '.$LNG->ARGUMENTS_NAME.'.';
+$LNG->ISSUE_PHASE_REDUCE_HELP = 'Cette phase est conçue pour réduire la liste des idées. Déplacez les citrons du panier vers les idées que vous aimez le moins. Vous pouvez déplacer 10 citrons, et vous pouvez allouer plus d\'un citron à une même idée.';
 
-$LNG->ISSUE_PHASE_DECIDE_HELP = 'Cette phase est concue pour prendre une décision finale concernant les idées les plus populaires. Vous avez un vote pour ou contre possible sur chaque idée mais vous ne pouvez voter sur vos propres idées.';
+$LNG->ISSUE_PHASE_DECIDE_HELP = 'Cette phase est conçue pour prendre une décision finale concernant les idées les plus populaires. Vous avez un vote pour ou contre possible sur chaque idée mais vous ne pouvez voter sur vos propres idées.';
 
 $LNG->ISSUE_OPEN_TITLE = 'Continu '.$LNG->DEBATE_NAME.'&nbsp;&nbsp; (default)';
 $LNG->ISSUE_OPEN_HELP = 'Par défaut, '.$LNG->DEBATES_NAME.' sont toujours ouvert aux discussions, contributions et les votes sont toujours ouvert.';
@@ -273,18 +275,18 @@ $LNG->ISSUE_OPEN_HELP = 'Par défaut, '.$LNG->DEBATES_NAME.' sont toujours ouver
 $LNG->ISSUE_TIMING_TITLE = 'Temps limité '.$LNG->DEBATE_NAME.'&nbsp;&nbsp; (optional)';
 $LNG->ISSUE_TIMING_HELP = 'Ici vous pouvez optionnellement définir la date à laquelle '.$LNG->DEBATE_NAME.' commence et fini.<br>Par défaut, discussion, contributions et vote sera toujours accessible, à moins que vous choisssiez de to <b>Phase</b> le débat ci-dessous.';
 $LNG->ISSUE_PHASING_TITLE = 'temps limité '.$LNG->DEBATE_NAME.' avec la phase&nbsp;&nbsp; (optional)';
-$LNG->ISSUE_PHASING_HELP = 'Ici vous pouvez optionnellement phaser une limite '.$LNG->DEBATE_NAME.'. Il y a toujours une phase obligatoire de discussion où '.$LNG->SOLUTIONS_NAME.', '.$LNG->PROS_NAME.' et '.$LNG->CONS_NAME.' sont ajoutés à '.$LNG->DEBATE_NAME.'. Il y a ensuite deux phases optionnelles. La phase \'Réduire\' permet aux utilisateurs d'allouer des citrons aux '.$LNG->SOLUTIONS_NAME.' dont ils s'intéressent le moins. Ces votes en citron sont ensuite utilisés pour réduire la liste de '.$LNG->SOLUTIONS_NAME.'. La phase \'Décider\' permet d'ouvrir les votes pour ou contre la liste finale '.$LNG->SOLUTIONS_NAME.'.';
+$LNG->ISSUE_PHASING_HELP = 'Ici vous pouvez optionnellement phaser une limite '.$LNG->DEBATE_NAME.'. Il y a toujours une phase obligatoire de discussion où '.$LNG->SOLUTIONS_NAME.', '.$LNG->PROS_NAME.' et '.$LNG->CONS_NAME.' sont ajoutés à '.$LNG->DEBATE_NAME.'. Il y a ensuite deux phases optionnelles. La phase \'Réduire\' permet aux utilisateurs d\'allouer des citrons aux '.$LNG->SOLUTIONS_NAME.' dont ils s\'intéressent le moins. Ces votes en citron sont ensuite utilisés pour réduire la liste de '.$LNG->SOLUTIONS_NAME.'. La phase \'Décider\' permet d\'ouvrir les votes pour ou contre la liste finale '.$LNG->SOLUTIONS_NAME;
 $LNG->ISSUE_PHASING_ON = 'Phaser ceci '.$LNG->DEBATE_NAME.'?';
 
 $LNG->FORM_ISSUE_START_END_DATE_ERROR = "La date de début doit précéder la date de fin";
-$LNG->FORM_LABEL_DEBATE_DATES_HINT = "(optionel) - Les dates ".$LNG->DEBATE_NAME." doivent être ouvertes à de nouvelles contributions. Formats de dates possible e.g.: \'14 May 2008\' or \'14-05-2008\'";
+$LNG->FORM_LABEL_DEBATE_DATES_HINT = "(optionel) - Les dates ".$LNG->DEBATE_NAME." doivent être ouvertes à de nouvelles contributions. Formats de dates possible e.g.: '14 May 2008' or '14-05-2008'";
 $LNG->FORM_LABEL_DEBATE_DATES_TITLE = "Dates du débat dans son ensemble";
 $LNG->FORM_LABEL_DEBATE_START_DATE = $LNG->DEBATE_NAME." début le:";
 $LNG->FORM_LABEL_DEBATE_END_DATE = "finit le:";
 
 $LNG->FORM_ISSUE_DISCUSSION_START_DATE_ERROR = "La date de début de discussion doit être fixée avant la date de la fin de discussion et aussi entre le ".$LNG->DEBATE_NAME." Dates de début et de fin, et avant les dates de citronage et de vote, si celles-ci sont définis.";
 $LNG->FORM_ISSUE_DISCUSSION_END_DATE_ERROR = "La date de fin de discussion doit être plus tardive qu'après la ".$LNG->DEBATE_NAME." date de départ et moins ou égal à ".$LNG->DEBATE_NAME." la date de fin, et donc avant les dates de citronage et de vote, si ces dernières sont définies.";
-$LNG->FORM_LABEL_DISCUSSION_DATES_HINT = "La date avant laquelle le ".$LNG->DEBATE_NAME." doit être ouver à un nouveau ".$LNG->SOLUTIONS_NAME." et ".$LNG->ARGUMENTS_NAME.". Les formats de date permis e.g.: \'14 May 2008\' ou \'14-05-2008\'";
+$LNG->FORM_LABEL_DISCUSSION_DATES_HINT = "La date avant laquelle le ".$LNG->DEBATE_NAME." doit être ouver à un nouveau ".$LNG->SOLUTIONS_NAME." et ".$LNG->ARGUMENTS_NAME.". Les formats de date permis e.g.: '14 May 2008' ou '14-05-2008'";
 $LNG->FORM_LABEL_DISCUSSION_DATES_TITLE = "Phase de discussion";
 $LNG->FORM_LABEL_DISCUSSION_START_DATE = "La discussion commence quand ".$LNG->DEBATE_NAME." commence";
 $LNG->FORM_LABEL_DISCUSSION_END_DATE = "La discussion se termine:";
@@ -292,17 +294,17 @@ $LNG->FORM_LABEL_DISCUSSION_END_DATE = "La discussion se termine:";
 $LNG->FORM_ISSUE_LEMONING_START_DATE_ERROR = "La date de début du citronage doit être entre le ".$LNG->DEBATE_NAME." Les dates de début et de fin, après les dates de discussion, et avant la date de départ du vote, si celles-ci sont définies.";
 $LNG->FORM_ISSUE_LEMONING_END_DATE_ERROR = "La date de fin du critronage doit être définie après la date de départ du citronage et entre le
  ".$LNG->DEBATE_NAME." Les dates de départ et de fin, après les dates de discussion, et avant la date du vote, si celles-ci sont définies. ";
-$LNG->FORM_LABEL_LEMONING_DATES_HINT = "(optionel) - Les dates de début et de fin ".$LNG->SOLUTION_NAME." de citronage devrait être disponibles. Formats autorisés e.g.: \'14 May 2008\' or \'14-05-2008\'";
+$LNG->FORM_LABEL_LEMONING_DATES_HINT = "(optionel) - Les dates de début et de fin ".$LNG->SOLUTION_NAME." de citronage devrait être disponibles. Formats autorisés e.g.: '14 May 2008' or '14-05-2008'";
 $LNG->FORM_LABEL_LEMONING_DATES_TITLE = "Réduit la liste d'idées avec le citronage";
 $LNG->FORM_LABEL_LEMONING_START_DATE = "La réduction d'idées commence le:";
 $LNG->FORM_LABEL_LEMONING_END_DATE = "se termine le:";
 $LNG->LEMONING_COUNT_LEFT = 'Citrons restant:';
 $LNG->LEMONING_CURRENT_CONUNT_LABEL = 'Votes de citrons';
-$LNG->LEMONING_COUNT_FINISHED = 'Désolé, vous n'avez plus de citron!';
+$LNG->LEMONING_COUNT_FINISHED = 'Désolé, vous n\'avez plus de citron!';
 
 $LNG->FORM_ISSUE_VOTE_START_DATE_ERROR = "La date de début de vote doit se situer entre le ".$LNG->DEBATE_NAME." Les dates de début et de fin, après les dates de discussion, et après les dates de citronage, si celles-ci sont définies.";
 $LNG->FORM_ISSUE_VOTE_START_END_ERROR = "The Voting End date must lie after the Voting Start Date and between the ".$LNG->DEBATE_NAME." Start On and End On dates, before the discussion dates and after the Lemoning dates, if these are set.";
-$LNG->FORM_LABEL_VOTING_DATES_HINT = "(optionel) - Dates entre lesquelles le vote est possible. La date de fin est issue de la date de fin du sujet/débat. Format permis e.g.: \'14 May 2008\' or \'14-05-2008\'";
+$LNG->FORM_LABEL_VOTING_DATES_HINT = "(optionel) - Dates entre lesquelles le vote est possible. La date de fin est issue de la date de fin du sujet/débat. Format permis e.g.: '14 May 2008' or '14-05-2008'";
 $LNG->FORM_LABEL_VOTING_DATES_TITLE = "Phase de vote";
 $LNG->FORM_LABEL_VOTING_START_DATE = "Le vote commencer le:";
 $LNG->FORM_LABEL_VOTING_END_DATE = "finit le:";
@@ -365,8 +367,8 @@ $LNG->LIST_NAV_NEXT_HINT = 'Suite';
 $LNG->LIST_NAV_NO_NEXT_HINT = 'Pas de suite';
 $LNG->LIST_NAV_NO_ITEMS = "Vous n'avez rien encore ajouté.";
 $LNG->LIST_NAV_TO = 'à';
-$LNG->LIST_NAV_NO_SOLUTION = 'Il n'y a pas '.$LNG->SOLUTIONS_NAME.' À afficher';
-$LNG->LIST_NAV_NO_ITEMS = 'Il n'y a pas d'objet à afficher';
+$LNG->LIST_NAV_NO_SOLUTION = 'Il n\'y a pas '.$LNG->SOLUTIONS_NAME.' À afficher';
+$LNG->LIST_NAV_NO_ITEMS = 'Il n\'y a pas d\'objet à afficher';
 
 $LNG->LIST_NAV_USER_NO_CON = "Non ".$LNG->CONS_NAME.' trouvé';
 $LNG->LIST_NAV_USER_NO_PRO = "Non ".$LNG->PROS_NAME.' trouvé';
@@ -407,7 +409,7 @@ $LNG->TAB_SEARCH_GO_BUTTON = 'Démarrer';
 $LNG->TAB_SEARCH_CLEAR_SEARCH_BUTTON = 'Effacer la recherche actuelle';
 
 //user
-$LNG->TAB_USER_HOME = 'Ma page d'Accueil';
+$LNG->TAB_USER_HOME = 'Ma page d\'Accueil';
 $LNG->TAB_USER_ISSUE = 'Mon/ma '.$LNG->ISSUES_NAME;
 $LNG->TAB_USER_SOLUTION = 'Mon/ma '.$LNG->SOLUTIONS_NAME;
 $LNG->TAB_USER_PRO = 'Mon/ma '.$LNG->PROS_NAME;
@@ -424,7 +426,7 @@ $LNG->CHANGE_PASSWORD_CONFIRM_MISSMATCH_ERROR = "Le mot de passe et la confirmat
 $LNG->CHANGE_PASSWORD_PROVIDE_PASSWORD_ERROR = 'Vous devez entrer un mot de passe.';
 $LNG->CHANGE_PASSWORD_SUCCESSFUL_UPDATE = 'Mot de passe changé avec succès, bravo!';
 $LNG->CHANGE_PASSWORD_BACK_TO_PROFILE = 'Aller sur mon profil';
-$LNG->CHANGE_PASSWORD_GO_TO_MY_HOME = 'Aller sur ma page d'Accueil';
+$LNG->CHANGE_PASSWORD_GO_TO_MY_HOME = 'Aller sur ma page d\'Accueil';
 $LNG->CHANGE_PASSWORD_CURRENT_PASSWORD_LABEL = 'Mot de passe actuel:';
 $LNG->CHANGE_PASSWORD_NEW_PASSWORD_LABEL = 'Nouveau mot de passe:';
 $LNG->CHANGE_PASSWORD_CONFIRM_PASSWORD_LABEL = 'Confirmez le mot de passe:';
@@ -443,7 +445,7 @@ $LNG->FORGOT_PASSWORD_SUBMIT_BUTTON = 'Soumettre';
 $LNG->LOGIN_TITLE = 'Se connecter à '.$CFG->SITE_TITLE;
 $LNG->LOGIN_INVALID_ERROR = 'Connection invalide, réesayez.';
 $LNG->LOGIN_NOT_REGISTERED_MESSAGE = 'Pas inscrit?';
-$LNG->LOGIN_INVITIATION_ONLY_MESSAGE = 'L'inscription sur ce site est actuellement par invitation seulement.';
+$LNG->LOGIN_INVITIATION_ONLY_MESSAGE = 'L\'inscription sur ce site est actuellement par invitation seulement.';
 $LNG->LOGIN_SIGNUP_OPEN_LINK = 'Connectez vous!';
 $LNG->LOGIN_SIGNUP_REGISTER_LINK = 'Connectez vous!';
 $LNG->LOGIN_USERNAME_LABEL = 'Courriel:';
@@ -470,20 +472,19 @@ $LNG->PROFILE_PHOTO_REPLACE_LABEL = 'Remplacer cette photo par:';
 $LNG->PROFILE_PHOTO_LABEL = 'Photo:';
 $LNG->PROFILE_LOCATION = 'Localisation: (ville)';
 $LNG->PROFILE_COUNTRY = 'Pays...';
-$LNG->PROFILE_HOMEPAGE = 'Page d'Accueil:';
+$LNG->PROFILE_HOMEPAGE = 'Page d\'Accueil:';
 $LNG->PROFILE_EMAIL_VALIDATE_TEXT = 'Validez votre courriel';
-$LNG->PROFILE_EMAIL_VALIDATE_HINT = 'Votre courriel n'as pas été validé. Si vous voulez utiliser la validation sociale vous aurez besoin de valider votre propre courriel.';
+$LNG->PROFILE_EMAIL_VALIDATE_HINT = 'Votre courriel n\'as pas été validé. Si vous voulez utiliser la validation sociale vous aurez besoin de valider votre propre courriel.';
 $LNG->PROFILE_EMAIL_VALIDATE_MESSAGE = 'Un courriel vous a été envoyé afin de vérifier que vous êtes le propriétaire de ce courriel.';
 $LNG->PROFILE_EMAIL_VALIDATE_COMPLETE = 'Ce courriel a été validé.';
 $LNG->PROFILE_EMAIL_CHANGE_CONFIRM = '
-Vous avez changé votre adresse de courriel.\nCette nouvelle adresse voit devoir être vérifiée\n\nVotre compte utilisateur va dorénavant être bloqué, vous allez être déconnecté et recevrez un nouveau courriel de validation de compte.\nClicquez sur le lien dans le courriel afin de compléter le changement d'adresse.\n\nÊtes vous sûr de vouloir procéder?';
+Vous avez changé votre adresse de courriel.\nCette nouvelle adresse voit devoir être vérifiée\n\nVotre compte utilisateur va dorénavant être bloqué, vous allez être déconnecté et recevrez un nouveau courriel de validation de compte.\nClicquez sur le lien dans le courriel afin de compléter le changement d\'adresse.\n\nÊtes vous sûr de vouloir procéder?';
 
 /*******************************************************************************************************/
 
 /** ODD **/
 $LNG->RESET_INVALID_MESSAGE = 'Code de réinitialisation du mot de passe invalide';
-$LNG->POPUPS_BLOCK = 'Il semble que vous aillé bloqué les pop-ups 
-\n\n Changez les propriétés de votre navigateur pour permettre d'ouvrir les pop-ups.';
+$LNG->POPUPS_BLOCK = 'Il semble que vous ayez bloqué les pop-ups\n\n Changez les propriétés de votre navigateur pour permettre d\'ouvrir les pop-ups.';
 
 /** TABS **/
 //main
@@ -502,7 +503,7 @@ $LNG->EDIT_BUTTON_HINT_ISSUE = 'Editer ceci '.$LNG->ISSUE_NAME;
 $LNG->DELETE_BUTTON_ALT = 'Supprimer';
 $LNG->DELETE_BUTTON_HINT = 'Supprimer cet objet';
 $LNG->NO_DELETE_BUTTON_ALT = 'Impossible de supprimer';
-$LNG->NO_DELETE_BUTTON_HINT = 'Vous ne pouvez supprimer cet objet. Quelqu'un s'y est connecté.';
+$LNG->NO_DELETE_BUTTON_HINT = 'Vous ne pouvez supprimer cet objet. Quelqu\'un s\'y est connecté.';
 
 /** USER PAGE **/
 $LNG->USER_FOLLOW_HINT = 'Suivre cette personne…';
@@ -537,14 +538,14 @@ $LNG->OVERVIEW_RESOURCE_MOSTCONNECTED_TITLE = 'les plus connectés '.$LNG->RESOU
 
 /** FORM LABELS, BUTTONS AND TEXT **/
 
-$LNG->CONDITIONS_REGISTER_FORM_TITLE = 'Conditions et termes d'usage';
-$LNG->CONDITIONS_REGISTER_FORM_MESSAGE = 'En s'inscrivant en tant qu'utilisateur de ce Hub vous acceptez les termes et conditions de ce Hub comme écrit dans notre <a href="'.$CFG->homeAddress.'ui/pages/conditionsofuse.php">Termes d'utilisation</a>.';
-$LNG->CONDITIONS_AGREE_FORM_REGISTER_MESSAGE = 'J'accepte les termes et conditions d'utilisations de ce Hub';
-$LNG->CONDITIONS_AGREE_FAILED_MESSAGE = 'Vous devez accepter les termes et conditions d'utilisation de ce Hub avant de pouvoir vous inscrire.';
+$LNG->CONDITIONS_REGISTER_FORM_TITLE = 'Conditions et termes d\'usage';
+$LNG->CONDITIONS_REGISTER_FORM_MESSAGE = 'En s\'inscrivant en tant qu\'utilisateur de ce Hub vous acceptez les termes et conditions de ce Hub comme écrit dans notre <a href="'.$CFG->homeAddress.'ui/pages/conditionsofuse.php">Termes d\'utilisation</a>.';
+$LNG->CONDITIONS_AGREE_FORM_REGISTER_MESSAGE = 'J\'accepte les termes et conditions d\'utilisations de ce Hub';
+$LNG->CONDITIONS_AGREE_FAILED_MESSAGE = 'Vous devez accepter les termes et conditions d\'utilisation de ce Hub avant de pouvoir vous inscrire.';
 
 /** OTHER FORMS **/
-$LNG->FORM_REGISTER_OPEN_TITLE = 'S'inscrire';
-$LNG->FORM_REGISTER_REQUEST_TITLE = 'Demande d'inscription';
+$LNG->FORM_REGISTER_OPEN_TITLE = 'S\'inscrire';
+$LNG->FORM_REGISTER_REQUEST_TITLE = 'Demande d\'inscription';
 $LNG->FORM_REGISTER_ADMIN_TITLE = 'Inscrire un nouvel utilisateur';
 $LNG->FORM_REGISTER_EMAIL = 'Courriel:';
 $LNG->FORM_REGISTER_DESC = 'Description:';
@@ -554,30 +555,30 @@ $LNG->FORM_REGISTER_NAME = 'Nom Complet';
 $LNG->FORM_REGISTER_INTEREST = 'Intéret dans ce DebateHub:';
 $LNG->FORM_REGISTER_LOCATION = 'Localisation: (ville)';
 $LNG->FORM_REGISTER_COUNTRY = 'Pays…';
-$LNG->FORM_REGISTER_HOMEPAGE = 'Page d'Accueil:';
+$LNG->FORM_REGISTER_HOMEPAGE = 'Page d\'Accueil:';
 $LNG->FORM_REGISTER_NEWSLETTER = 'Newsletter:';
 $LNG->FORM_REGISTER_CAPTCHA = 'Êtes-vous un humain?';
-$LNG->FORM_REGISTER_SUBMIT_BUTTON = 'S'inscrire';
+$LNG->FORM_REGISTER_SUBMIT_BUTTON = 'S\'inscrire';
 $LNG->FORM_REGISTER_REQUEST_DESC = 'Description personnelle:';
 $LNG->FORM_REGISTER_IMAGE_ERROR = "Éditez votre profil et uploadez une image différente une fois que vous avez complété votre inscription.";
 
 $LNG->REGISTRATION_SUCCESSFUL_TITLE = 'Inscription ';
-$LNG->REGISTRATION_SUCCESSFUL_MESSAGE = '<Vous allez rapidemment recevoir un courriel. Vous devez cliquer sur le lien à l'intérieur pour valider votre adresse de courriel et compléter votre inscription Hub.';
+$LNG->REGISTRATION_SUCCESSFUL_MESSAGE = '<Vous allez rapidemment recevoir un courriel. Vous devez cliquer sur le lien à l\'intérieur pour valider votre adresse de courriel et compléter votre inscription Hub.';
 $LNG->REGISTRATION_COMPLETE_TITLE = 'Inscription finalisée';
-$LNG->REGISTRATION_FAILED = 'Votre inscription n'a pu être finalisée. Essayez de vous inscrire une prochaine fois ';
-$LNG->REGISTRATION_FAILED_INVALID = 'Votre inscription n'a pas pu être complétée, la clé est invalide. Enregistrez vous une nouvelle fois';
+$LNG->REGISTRATION_FAILED = 'Votre inscription n\'a pu être finalisée. Essayez de vous inscrire une prochaine fois ';
+$LNG->REGISTRATION_FAILED_INVALID = 'Votre inscription n\'a pas pu être complétée, la clé est invalide. Enregistrez vous une nouvelle fois';
 $LNG->REGISTRATION_SUCCESSFUL_LOGIN = "Vous pouvez dorénavant <a href='".$CFG->homeAddress."ui/pages/login.php'>se connecter</a>";
 
-$LNG->REGISTRATION_REQUEST_SUCCESSFUL_TITLE = 'Requête d'enregistrement recue';
-$LNG->REGISTRATION_REQUEST_SUCCESSFUL_MESSAGE = ' Merci de votre intéret à contribuer à ce Debate Hub.<br>Votre demande d' inscription vous a été envoyée et vous serez contacté sous peu.';
+$LNG->REGISTRATION_REQUEST_SUCCESSFUL_TITLE = 'Requête d\'enregistrement recue';
+$LNG->REGISTRATION_REQUEST_SUCCESSFUL_MESSAGE = 'Merci de votre intéret à contribuer à ce Debate Hub.<br>Votre demande d\'inscription vous a été envoyée et vous serez contacté sous peu.';
 
-$LNG->REGISTRATION_REQUEST_SUCCESSFUL_TITLE_ADMIN = 'Enregistrement d'un nouvel utilisateur réussie';
+$LNG->REGISTRATION_REQUEST_SUCCESSFUL_TITLE_ADMIN = 'Enregistrement d\'un nouvel utilisateur réussie';
 $LNG->REGISTRATION_REQUEST_SUCCESSFUL_MESSAGE_ADMIN = "Un courriel a été envoyé au nouvel utilisateur avec leur détail de connection";
 
 $LNG->FORM_HEADER_MESSAGE = 'Soyez conscient que toute donnée entrée ici sera visible publiquement sur ce site par les autres utilisateurs.';
 $LNG->FORM_REQUIRED_FIELDS_MESSAGE_PART1 = '(champs avec un(e)';
 $LNG->FORM_REQUIRED_FIELDS_MESSAGE_PART2 = 'sont obligatoire';
-$LNG->FORM_REQUIRED_FIELDS_MESSAGE_PART3 = ', à moins qu'ils/elles ne soient dans une sous-section optionnelle que vous n'avez pas complété)';
+$LNG->FORM_REQUIRED_FIELDS_MESSAGE_PART3 = ', à moins qu\'iels ne soient dans une sous-section optionnelle que vous n\'avez pas complété)';
 
 $LNG->FORM_REQUIRED_FIELDS = 'Indiquez le champ demandé';
 $LNG->FORM_LABEL_SUMMARY = 'Summary:';
@@ -588,7 +589,7 @@ $LNG->FORM_LABEL_NAME = 'Nom:';
 $LNG->FORM_DESC_PLAIN_TEXT_LINK = 'Texte brut';
 $LNG->FORM_DESC_PLAIN_TEXT_HINT = 'Changer au texte brut. Le formatage sera perdu.';
 $LNG->FORM_DESC_HTML_TEXT_LINK = 'Formattage';
-$LNG->FORM_DESC_HTML_TEXT_HINT = 'Montrer la barre d'outils de formatage.';
+$LNG->FORM_DESC_HTML_TEXT_HINT = 'Montrer la barre d\'outils de formatage.';
 $LNG->FORM_DESC_HTML_SWITCH_WARNING = 'Êtes vous sûr de changer en texte brut? Attention: tout formattage sera perdu.';
 
 $LNG->FORM_BUTTON_REMOVE = 'Enlever';
@@ -600,7 +601,7 @@ $LNG->FORM_BUTTON_CLOSE = 'Fermer';
 $LNG->FORM_BUTTON_CONTINUE = 'Continuer';
 $LNG->FORM_BUTTON_PRINT_PAGE = 'Imprimer la page';
 
-$LNG->FORM_ERROR_NOT_ADMIN = 'Vous n'avez pas les autorisations pour voir cette page';
+$LNG->FORM_ERROR_NOT_ADMIN = 'Vous n\'avez pas les autorisations pour voir cette page';
 $LNG->FORM_ERROR_MESSAGE = 'Les problèmes suivants ont été identifié, essayez une nouvelle fois';
 $LNG->FORM_ERROR_MESSAGE_LOGIN = 'Les problèmes suivants ont été identifié concernant votre tentative de connection:';
 $LNG->FORM_ERROR_MESSAGE_REGISTRATION = 'Les problèmes suivant ont été identifié concernant votre inscription, essayez de nouveau:';
@@ -632,7 +633,7 @@ $LNG->FORM_ACTIVITY_ACTION_EDITED = 'edité';
 $LNG->FORM_ACTIVITY_ACTION_ADDED_ITEM = 'a ajouté cet objet';
 $LNG->FORM_ACTIVITY_ACTION_EDITED_ITEM = 'a édité cet objet';
 $LNG->FORM_ACTIVITY_ACTION_ASSOCIATED = 'a associé';
-$LNG->FORM_ACTIVITY_ACTION_DESOCIATED = 'a enlevé l'association';
+$LNG->FORM_ACTIVITY_ACTION_DESOCIATED = 'a enlevé l\'association';
 $LNG->FORM_ACTIVITY_ACTION_ADDED_RESOURCE = "a ajouté le/là ".$LNG->RESOURCE_NAME;
 $LNG->FORM_ACTIVITY_ACTION_ADDED_EVIDENCE_PRO = "a ajouté Soutien".$LNG->ARGUMENT_NAME;
 $LNG->FORM_ACTIVITY_ACTION_ADDED_EVIDENCE_CON = "a ajouté Contre".$LNG->ARGUMENT_NAME;
@@ -648,21 +649,21 @@ $LNG->FORM_ACTIVITY_ACTION_CONVINCING_EVIDENCE = 'était convaincant '.$LNG->ARG
 $LNG->FORM_ACTIVITY_ACTION_SOUND_EVIDENCE = 'était solide '.$LNG->ARGUMENT_NAME.' for';
 $LNG->FORM_ACTIVITY_ACTION_PROMOTED = 'devrait être promu contre';
 $LNG->FORM_ACTIVITY_ACTION_WEAK_SOLUTION = 'était faible '.$LNG->SOLUTION_NAME.' for';
-$LNG->FORM_ACTIVITY_ACTION_UNCONVINCING_EVIDENCE = 'n'était pas convaincant '.$LNG->ARGUMENT_NAME.' pour';
-$LNG->FORM_ACTIVITY_ACTION_UNSOUND_EVIDENCE = 'n'était pas solide '.$LNG->ARGUMENT_NAME.' pour';
+$LNG->FORM_ACTIVITY_ACTION_UNCONVINCING_EVIDENCE = 'n\'était pas convaincant '.$LNG->ARGUMENT_NAME.' pour';
+$LNG->FORM_ACTIVITY_ACTION_UNSOUND_EVIDENCE = 'n\'était pas solide '.$LNG->ARGUMENT_NAME.' pour';
 $LNG->FORM_ACTIVITY_ACTION_DEMOTED = 'devrait être rétrogradé contre / par rapport à ';
 $LNG->FORM_ACTIVITY_LABEL_WITH = 'avec';
 $LNG->FORM_ACTIVITY_LABEL_FROM = 'venant de';
-$LNG->FORM_ACTIVITY_PROBLEM_MESSAGE = 'Les problèmes suivant ont été identifiés à partir de la récupération des données d'activité: ';
+$LNG->FORM_ACTIVITY_PROBLEM_MESSAGE = 'Les problèmes suivant ont été identifiés à partir de la récupération des données d\'activité: ';
 
 //Issue
 $LNG->FORM_ISSUE_TITLE_ADD = 'Ajouter un nouveau '.$LNG->DEBATE_NAME;
 $LNG->FORM_ISSUE_TITLE_EDIT = 'Editer ce '.$LNG->DEBATE_NAME;
 $LNG->FORM_ISSUE_ENTER_SUMMARY_ERROR = 'Entrer un(e) '.$LNG->ISSUE_NAME.' résumez avant de publier';
 $LNG->FORM_ISSUE_CREATE_ERROR_MESSAGE = 'Un problème est arrivé lors de la création du '.$LNG->ISSUE_NAME.':';
-$LNG->FORM_ISSUE_HEADING_MESSAGE = 'Ajoutez une question que vous êtes en train d'étudier ou un(e) Add a question you are investigating or a '.$LNG->ISSUE_NAME.' vous pensez que la communnauté doit aborder.';
+$LNG->FORM_ISSUE_HEADING_MESSAGE = 'Ajoutez une question que vous êtes en train d\'étudier ou un(e) Add a question you are investigating or a '.$LNG->ISSUE_NAME.' vous pensez que la communnauté doit aborder.';
 $LNG->FORM_ISSUE_LABEL_SUMMARY = $LNG->ISSUE_NAME.' Résumé:';
-$LNG->FORM_ISSUE_NOT_FOUND = 'Cette chose requise '.$LNG->ISSUE_NAME.' n'a pu être trouvé';
+$LNG->FORM_ISSUE_NOT_FOUND = 'Cette chose requise '.$LNG->ISSUE_NAME.' n\'a pu être trouvé';
 
 /** FORM ROLLOVER HINTS **/
 // Issues
@@ -671,12 +672,12 @@ $LNG->ISSUE_DESC_FORM_HINT = '(optionnel) - Entrez une description plus longue d
 
 /**** EMAIL TEXT *****/
 $LNG->WELCOME_REGISTER_OPEN_SUBJECT = "Bienvenue à ".$CFG->SITE_TITLE;
-$LNG->WELCOME_REGISTER_OPEN_BODY = 'Merci de vous être inscrit.<br><br>Pour plus d'informations concernant DebateHub, vous pouvez lire notre <a href="'.$CFG->homeAddress.'ui/pages/about.php">concernant la page</a>.<br>Pour tout aide concernant comment d´buter sur le hub, vous pouvez visiter notre <a href="'.$CFG->homeAddress.'help/">help page</a>.<br>Why not start using the <a href="'.$CFG->homeAddress.'">'.$CFG->SITE_TITLE.'</a> aujourd'hui';
+$LNG->WELCOME_REGISTER_OPEN_BODY = 'Merci de vous être inscrit.<br><br>Pour plus d\'informations concernant DebateHub, vous pouvez lire notre <a href="'.$CFG->homeAddress.'ui/pages/about.php">concernant la page</a>.<br>Pour tout aide concernant comment d´buter sur le hub, vous pouvez visiter notre <a href="'.$CFG->homeAddress.'help/">help page</a>.<br>Why not start using the <a href="'.$CFG->homeAddress.'">'.$CFG->SITE_TITLE.'</a> aujourd\'hui';
 
 $LNG->VALIDATE_REGISTER_SUBJECT = "Complétez votre inscription sur ".$CFG->SITE_TITLE;
 
 $LNG->WELCOME_REGISTER_REQUEST_SUBJECT = "Demande d'inscription pour ".$CFG->SITE_TITLE;
-$LNG->WELCOME_REGISTER_REQUEST_BODY = 'Merci d'avoir demandé un compte sur <a href="'.$CFG->homeAddress.'">'.$CFG->SITE_TITLE.'</a>.<br>Ceci est pour confirmer que nous avons recu votre requête.<br>Nous tenterons de procéder à votre requete dans les 24 heures, mais cela peut prendre plus de temps si nous avons une forte charge de travail.<br>Vous allez recevoir un autre courriel avec vos détails d'inscription, si votre requête a réussi.';
+$LNG->WELCOME_REGISTER_REQUEST_BODY = 'Merci d\'avoir demandé un compte sur <a href="'.$CFG->homeAddress.'">'.$CFG->SITE_TITLE.'</a>.<br>Ceci est pour confirmer que nous avons recu votre requête.<br>Nous tenterons de procéder à votre requete dans les 24 heures, mais cela peut prendre plus de temps si nous avons une forte charge de travail.<br>Vous allez recevoir un autre courriel avec vos détails d\'inscription, si votre requête a réussi.';
 $LNG->WELCOME_REGISTER_REQUEST_BODY_ADMIN = "L'utilisateur ci-dessus a demandé un compte. Utilisez le bureau administrateur pour accepter ou rejeter ce nouvel utilisateur.";
 
 $LNG->WELCOME_REGISTER_CLOSED_SUBJECT = "Inscription le ".$CFG->SITE_TITLE;
@@ -685,9 +686,9 @@ $LNG->VALIDATE_GROUP_JOIN_SUBJECT = "Demande de rejoindre le groupe le ".$CFG->S
 
 /*** NODE LISTINGS AND ITEMS ***/
 $LNG->NODE_DETAIL_BUTTON_HINT = 'Aller aux informations complètes concernant cet objet.';
-$LNG->NODE_TYPE_ICON_HINT = 'Voir l'image originelle';
+$LNG->NODE_TYPE_ICON_HINT = 'Voir l\'image originelle';
 $LNG->NODE_EXPLORE_BUTTON_TEXT = 'Explorer >>';
-$LNG->NODE_EXPLORE_BUTTON_HINT = 'Cliquez pour révéler/cacher où vous pouvez aller et voir plus d'informations et d'activité aux alentours de cet objet';
+$LNG->NODE_EXPLORE_BUTTON_HINT = 'Cliquez pour révéler/cacher où vous pouvez aller et voir plus d\'informations et d\'activité aux alentours de cet objet';
 
 $LNG->NODE_VOTE_FOR_ICON_ALT = 'Voté pour';
 $LNG->NODE_VOTE_AGAINST_ICON_ALT = 'Voté contre';
@@ -706,7 +707,7 @@ $LNG->NODE_VOTE_OWN_HINT = 'Vous ne pouvez pas voter ces ';
 $LNG->NODE_ADDED_ON = 'Ajouté le:';
 $LNG->NODE_URL_HEADING = 'Url:';
 
-$LNG->NODE_DISCONNECT_CHECK_MESSAGE_PART1 = 'Êtes vous sûr de vouloir vous déconnecter?;
+$LNG->NODE_DISCONNECT_CHECK_MESSAGE_PART1 = 'Êtes vous sûr de vouloir vous déconnecter?';
 $LNG->NODE_DISCONNECT_CHECK_MESSAGE_PART2 = 'de';
 $LNG->NODE_DISCONNECT_CHECK_MESSAGE_PART3 = '?';
 $LNG->NODE_DELETE_CHECK_MESSAGE = 'Êtes vous sûr de vouloir supprimer le';
@@ -724,11 +725,11 @@ $LNG->USERS_FOLLOW_ICON_ALT = 'Follow';
 $LNG->USERS_STARTED_FOLLOWING_ON = 'A commencé à suivre le:';
 $LNG->USERS_LAST_LOGIN = 'Dernière connection:';
 $LNG->USERS_LAST_ACTIVE = 'dernière fois actif:';
-$LNG->USERS_DATE_JOINED = 'date d'inscription:';
+$LNG->USERS_DATE_JOINED = 'date d\'inscription:';
 
 /** USER HOME PAGE **/
 $LNG->USER_HOME_LOCATION_LABEL = 'Localisation:';
-$LNG->USER_HOME_TABLE_ITEM_TYPE = 'Type d'objet';
+$LNG->USER_HOME_TABLE_ITEM_TYPE = 'Type d\'objet';
 $LNG->USER_HOME_TABLE_CREATION_COUNT = 'Compter';
 $LNG->USER_HOME_TABLE_VIEW = 'Voir';
 $LNG->USER_HOME_TABLE_TYPE = 'Type';
@@ -740,7 +741,7 @@ $LNG->USER_HOME_VIEW_CONTENT_HEADING = 'Résumé du contenu de la création';
 $LNG->USER_HOME_VIEW_ACTIVITIES_LINK = "( Voir toutes les activités de cette personne )";
 $LNG->USER_HOME_VIEW_ACTIVITIES_HINT =  "Ceci ouvre une nouvelle fenêtre et peut prendre du temps pour charger en fonction du volume d'activité de la personne.";
 $LNG->USER_HOME_FOLLOWING_HEADING = 'Suit';
-$LNG->USER_HOME_ACTIVITY_ALERT = 'Envoyer un courriel d'alerte de nouvelle activité';
+$LNG->USER_HOME_ACTIVITY_ALERT = 'Envoyer un courriel d\'alerte de nouvelle activité';
 $LNG->USER_HOME_EMAIL_HOURLY = 'Par heure';
 $LNG->USER_HOME_EMAIL_DAILY = 'Par jour';
 $LNG->USER_HOME_EMAIL_WEEKLY = 'Par semaine';
@@ -752,7 +753,7 @@ $LNG->USER_HOME_ACTIVITY_LINK = 'Activité';
 $LNG->USER_HOME_NOT_FOLLOWING_MESSAGE = 'Ne suis pas des personnes ni des objets actuellement.';
 $LNG->USER_HOME_FOLLOWERS_HEADING = 'Suiveur';
 $LNG->USER_HOME_NO_FOLLOWERS_MESSAGE = 'Pas de suiveur actuellement.';
-$LNG->USER_HOME_ANALYTICS_LINK_TEXT = '( Voir les données d'analyse sur cette personne )';
+$LNG->USER_HOME_ANALYTICS_LINK_TEXT = '( Voir les données d\'analyse sur cette personne )';
 $LNG->USER_HOME_ANALYTICS_LINK_HINT =  "Ceci ouvre une nouvelle fenêtre et peut prendre du temps pour charger en fonction du volume d'activité de la personne";
 
 /** MAIN TAB SCREENS - TABBERLIB **/
@@ -763,9 +764,9 @@ $LNG->TAB_ADD_GROUP_HINT = 'Add '.$LNG->GROUP_NAME;
 
 /** HOMEPAGE **/
 $LNG->HOMEPAGE_TITLE = '';
-$LNG->HOMEPAGE_FIRST_PARA = '<b>'.$CFG->SITE_TITLE.'</b> donne aux communautés en ligne un espace pour: i. soulever des questions; ii. partager des idées; iii. debatre des pour et contre ; iv. et voter les contributions afin d'organiser collectivement et de progresser sur les bonnes idées.  DebateHub est dinstint and son usage de données analytiques avancées pour révéler les idées les plus argumentées, et dans la visualisation de votre commaunauté.';
-$LNG->HOMEPAGE_SECOND_PARA_PART2 = '<b>Pour les membres de la communauté:</b><br>Debate Hub vous êtes à partager de nouvelles idées, mais aussi pour les ouvrir au débat. Il vous aide à argumenter vos points de vue, et d'identifier les idées les plus robustes parmi la masse d'informations.';
-$LNG->HOMEPAGE_SECOND_PARA_PART2 .= '<p><b>Pour les animateurs de communauté:</b><br>Debate Hub fournit de nouveaux outils afin d'organiser votre communauté, réduire les doublons d'idées, et permet l'analyse de contenu et la mise en résumé. Le tableau d'analyse concernant vos groupes vous aide à identifier les connections entre personnes et idées, de détecter les manques d'information, de découvrir de nouvelles logiques de (dés)accords, et de produire des rémusés visuels du débat.</p>';
+$LNG->HOMEPAGE_FIRST_PARA = '<b>'.$CFG->SITE_TITLE.'</b> donne aux communautés en ligne un espace pour: i. soulever des questions; ii. partager des idées; iii. debatre des pour et contre ; iv. et voter les contributions afin d\'organiser collectivement et de progresser sur les bonnes idées.  DebateHub est dinstint and son usage de données analytiques avancées pour révéler les idées les plus argumentées, et dans la visualisation de votre commaunauté.';
+$LNG->HOMEPAGE_SECOND_PARA_PART2 = '<b>Pour les membres de la communauté:</b><br>Debate Hub vous êtes à partager de nouvelles idées, mais aussi pour les ouvrir au débat. Il vous aide à argumenter vos points de vue, et d\'identifier les idées les plus robustes parmi la masse d\'informations.';
+$LNG->HOMEPAGE_SECOND_PARA_PART2 .= '<p><b>Pour les animateurs de communauté:</b><br>Debate Hub fournit de nouveaux outils afin d\'organiser votre communauté, réduire les doublons d\'idées, et permet l\'analyse de contenu et la mise en résumé. Le tableau d\'analyse concernant vos groupes vous aide à identifier les connections entre personnes et idées, de détecter les manques d\'information, de découvrir de nouvelles logiques de (dés)accords, et de produire des rémusés visuels du débat.</p>';
 $LNG->FOOTER_PARTNERSHIP_LABEL = 'En partenariat avec';
 $LNG->HOMEPAGE_KEEP_READING = 'Continuer à lire';
 $LNG->HOMEPAGE_READ_LESS = 'lire moins';
@@ -788,12 +789,12 @@ $LNG->ADMIN_TITLE = "Espace d'administration";
 $LNG->ADMIN_BUTTON_HINT = "Ceci ouvre une nouvelle fenêtre";
 $LNG->ADMIN_STATS_BUTTON_HINT = "Aller sur les pages d'analyse du site";
 $LNG->ADMIN_REGISTER_NEW_USER_LINK = 'Enregistrer un nouvel utilisateur';
-$LNG->ADMIN_NOT_ADMINISTRATOR_MESSAGE = 'Désolé, vous avez besoin d'être un administrateur pour pouvoir accéder à cette page';
-$LNG->ADMIN_MANAGE_USERS_DELETE_ERROR = 'Il y a eu un problème en essayant de supprimer l'utilisateur avec l' id :';
+$LNG->ADMIN_NOT_ADMINISTRATOR_MESSAGE = 'Désolé, vous avez besoin d\'être un administrateur pour pouvoir accéder à cette page';
+$LNG->ADMIN_MANAGE_USERS_DELETE_ERROR = 'Il y a eu un problème en essayant de supprimer l\'utilisateur avec l\'id :';
 
 $LNG->NODE_NEWS_POSTED_ON = 'Posté le';
 $LNG->ADMIN_MANAGE_NEWS_LINK = "Gérer ".$LNG->NEWSS_NAME;
-$LNG->ADMIN_MANAGE_NEWS_DELETE_ERROR = 'Il y a eu un problème en supprimant le/la '.$LNG->NEWS_NAME.' avec l'id:';
+$LNG->ADMIN_MANAGE_NEWS_DELETE_ERROR = 'Il y a eu un problème en supprimant le/la '.$LNG->NEWS_NAME.' avec l\'id:';
 $LNG->ADMIN_NEWS_MISSING_NAME_ERROR = 'Vous vez entrer un '.$LNG->NEWS_NAME.' titre.';
 $LNG->ADMIN_NEWS_ID_ERROR  = 'Erreur avec '.$LNG->NEWS_NAME.' id.';
 $LNG->ADMIN_NEWS_DELETE_QUESTION_PART1 = 'Êtes vous sûr de vouloir supprimer cet objet?'.$LNG->NEWS_NAME;
@@ -809,8 +810,8 @@ $LNG->ADMIN_NEWS_ACTION_HEADING = 'Action';
 $LNG->ADMIN_NEWS_EDIT_LINK = 'editer';
 $LNG->ADMIN_NEWS_DELETE_LINK = 'supprimer';
 
-$LNG->ADMIN_CRON_FOLLOW_USER_ACTIVITY_MESSAGE = 'Il y a eu de l'activité dans ';
-$LNG->ADMIN_CRON_FOLLOW_SEE_ACTIVITY_LINK = 'Voir l'activité';
+$LNG->ADMIN_CRON_FOLLOW_USER_ACTIVITY_MESSAGE = 'Il y a eu de l\'activité dans ';
+$LNG->ADMIN_CRON_FOLLOW_SEE_ACTIVITY_LINK = 'Voir l\'activité';
 $LNG->ADMIN_CRON_FOLLOW_ACTIVITY_FOR = 'Activité pour';
 $LNG->ADMIN_CRON_FOLLOW_EXPLORE_LINK = 'Explorer';
 $LNG->ADMIN_CRON_FOLLOW_ON_THE = 'Sur le';
@@ -834,13 +835,13 @@ $LNG->ADMIN_CRON_FOLLOW_REMOVED_ASSOCIATION = 'enlever vec';
 $LNG->ADMIN_CRON_FOLLOW_DATE_FROM_TO_PART1 = 'De';
 $LNG->ADMIN_CRON_FOLLOW_DATE_FROM_TO_PART2 = 'À';
 $LNG->ADMIN_CRON_FOLLOW_WEEKLY = 'hebdomadaire';
-$LNG->ADMIN_CRON_FOLLOW_WEEKLY_TITLE = 'Rapport d'activité Debate Hub hebdomadaire';
+$LNG->ADMIN_CRON_FOLLOW_WEEKLY_TITLE = 'Rapport d\'activité Debate Hub hebdomadaire';
 $LNG->ADMIN_CRON_FOLLOW_WEEKLY_DIGEST_RUN = 'Digest hebdomadaire des activités sur '.$CFG->SITE_TITLE.' Démarrer';
 $LNG->ADMIN_CRON_FOLLOW_MONTHLY = 'Mensuel';
 $LNG->ADMIN_CRON_FOLLOW_MONTHLY_TITLE = 'Rapport mensuel de débat Debate Hub';
 $LNG->ADMIN_CRON_FOLLOW_MONTHLY_DIGEST_RUN = 'Digest mensuel des activtés dans '.$CFG->SITE_TITLE.' Démarrer';
 $LNG->ADMIN_CRON_FOLLOW_DAILY = 'Journalier';
-$LNG->ADMIN_CRON_FOLLOW_DAILY_TITLE = 'Rapport journalier d'activité Debate Hub';
+$LNG->ADMIN_CRON_FOLLOW_DAILY_TITLE = 'Rapport journalier d\'activité Debate Hub';
 $LNG->ADMIN_CRON_FOLLOW_DAILY_DIGEST_RUN = 'Digest journalier des activités dans '.$CFG->SITE_TITLE.' Démarrer';
 $LNG->ADMIN_CRON_FOLLOW_HOURLY = 'Par heure';
 $LNG->ADMIN_CRON_FOLLOW_HOURLY_TITLE = 'Hourly Debate Hub Activity Report';
@@ -876,7 +877,7 @@ $LNG->HELP_NETWORKMAP_BODY .= '<b>Mouse over blobs</b> to view an Idea\'s<br>&nb
 $LNG->CORE_UNKNOWN_USER_ERROR = 'Utilisateur inconnu';
 $LNG->CORE_NOT_IMAGE_ERROR = 'Vous pouvez seulement upploader des images.';
 $LNG->CORE_NOT_IMAGE_TOO_LARGE_ERROR = 'le fichier image est trop large.';
-$LNG->CORE_NOT_IMAGE_UPLOAD_ERROR = 'Erreur durant l'upload de l'image';
+$LNG->CORE_NOT_IMAGE_UPLOAD_ERROR = 'Erreur durant l\'upload de l\'image';
 $LNG->CORE_NOT_IMAGE_RESIZE_ERROR = 'Error resizing image';
 $LNG->CORE_NOT_IMAGE_SCALE_ERROR = 'Error scaling image.';
 
@@ -1037,7 +1038,7 @@ $LNG->LOGIN_EXTERNAL_ERROR_EMAIL_UNVALIDATED_PART2 = 'profile on this Hub.';
 $LNG->LOGIN_EXTERNAL_ERROR_NO_EMAIL_PART1 = '<br><br>Unfortunately'; // Provder service name will be inserted here .e.g Facebook, Yahoo, Google etc.
 $LNG->LOGIN_EXTERNAL_ERROR_NO_EMAIL_PART2 = 'has not given us your email address, so we cannot check if you have an account with us already or create a new one if required.<br><br>Therefore, please enter the Email address you wish to use on this Debate Hub below and press Login.';
 
-$LNG->LOGIN_EXTERNAL_EMAIL_VERIFICALTION_MESSAGE .= 'You will shortly receive an email.';
+$LNG->LOGIN_EXTERNAL_EMAIL_VERIFICALTION_MESSAGE = 'You will shortly receive an email.';
 $LNG->LOGIN_EXTERNAL_EMAIL_VERIFICALTION_MESSAGE .= '<br>You must click on the link inside to complete your registration on this Hub.';
 
 $LNG->LOGIN_EXTERNAL_EMAIL_VERIFICALTION_MESSAGE2 = 'There was no existing Hub user account for the email address on your external profile, so we have now created one and associated it to that external profile.';
@@ -1128,4 +1129,3 @@ $LNG->REGSITRATION_ADMIN_EMAIL_REJECT_BODY = 'Thank you for requesting registrat
 $LNG->RECENT_EMAIL_DIGEST_LABEL = 'Email Digest:';
 $LNG->RECENT_EMAIL_DIGEST_REGISTER_MESSAGE = "Tick to receive a monthly email digest of recent activity.";
 $LNG->RECENT_EMAIL_DIGEST_PROFILE_MESSAGE = "Opt in/out of receiving a monthly email digest of recent activity.";
-?>

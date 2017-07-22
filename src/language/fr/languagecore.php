@@ -35,36 +35,36 @@
 $LNG->ISSUE_NAME = "Sujet";
 $LNG->SOLUTION_NAME = "Idée";
 $LNG->ARGUMENT_NAME = "Argument";
-$LNG->PRO_NAME = “Argument en faveur";
-$LNG->CON_NAME = “Argument contre”;
-$LNG->COMMENT_NAME = “Commentaire du modérateur”;
+$LNG->PRO_NAME = "Argument en faveur";
+$LNG->CON_NAME = "Argument contre";
+$LNG->COMMENT_NAME = "Commentaire du modérateur";
 $LNG->RESOURCE_NAME = "Url";
-$LNG->USER_NAME = “Utilisateur”;
-$LNG->GROUP_NAME = “Groupe de discussion“;
-$LNG->NEWS_NAME = “article d’actualité“;
-$LNG->DEBATE_NAME = “Débat”;
-$LNG->FOLLOWER_NAME = “Suiveur”;
+$LNG->USER_NAME = "Utilisateur";
+$LNG->GROUP_NAME = "groupe de discussion";
+$LNG->NEWS_NAME = "article d'actualité";
+$LNG->DEBATE_NAME = "Débat";
+$LNG->FOLLOWER_NAME = "Suiveur";
 $LNG->VOTE_NAME = "Vote";
 
 /** Plural **/
-$LNG->ISSUES_NAME = “Sujets de débat“;
-$LNG->SOLUTIONS_NAME = "Idées”;
+$LNG->ISSUES_NAME = "Sujets de débat";
+$LNG->SOLUTIONS_NAME = "Idées";
 $LNG->ARGUMENTS_NAME = "Arguments";
-$LNG->PROS_NAME = “Arguments en faveur”;
-$LNG->CONS_NAME = “Arguments contre”;
-$LNG->COMMENTS_NAME = “Commentaires du modérateur“;
+$LNG->PROS_NAME = "Arguments en faveur";
+$LNG->CONS_NAME = "Arguments contre";
+$LNG->COMMENTS_NAME = "Commentaires du modérateur";
 $LNG->RESOURCES_NAME = "Urls";
-$LNG->USERS_NAME = “Utilisateurs”;
-$LNG->GROUPS_NAME = “Groupes de discussion“;
-$LNG->NEWSS_NAME = “Actualités”;
-$LNG->DEBATES_NAME = “Débats”;
-$LNG->FOLLOWERS_NAME = “Suiveurs”;
+$LNG->USERS_NAME = "Utilisateurs";
+$LNG->GROUPS_NAME = "Groupes de discussion";
+$LNG->NEWSS_NAME = "Actualités";
+$LNG->DEBATES_NAME = "Débats";
+$LNG->FOLLOWERS_NAME = "Suiveurs";
 $LNG->VOTES_NAME = "Votes";
 
 /** Link Type Name **/
-$LNG->LINK_SOLUTION_ISSUE = ‘répond à’;
-$LNG->LINK_PRO_SOLUTION = ‘soutien’;
-$LNG->LINK_CON_SOLUTION = ‘conteste’;
-$LNG->LINK_COMMENT_NODE = ‘est lié à’;
-$LNG->LINK_BUILT_FROM = ‘construit à partir de’;
+$LNG->LINK_SOLUTION_ISSUE = "répond à";
+$LNG->LINK_PRO_SOLUTION = "soutien";
+$LNG->LINK_CON_SOLUTION = "conteste";
+$LNG->LINK_COMMENT_NODE = "est lié à";
+$LNG->LINK_BUILT_FROM = "construit à partir de";
 ?>
