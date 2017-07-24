@@ -132,23 +132,23 @@ $LNG->GROUP_FORM_ISADMIN_LABEL = "Administrateur";
 $LNG->GROUP_FORM_REMOVE_LABEL = "Supprimer";
 $LNG->GROUP_FORM_APPROVE_LABEL = "Approuver";
 $LNG->GROUP_FORM_REJECT_LABEL = "Rejeter";
-$LNG->GROUP_FORM_REMOVE_MESSAGE_PART1 = 'Êtes vous sûr de supprimer? ';
+$LNG->GROUP_FORM_REMOVE_MESSAGE_PART1 = 'Êtes-vous sûr⋅e de supprimer? ';
 $LNG->GROUP_FORM_REMOVE_MESSAGE_PART2 = 'de ca '.$LNG->GROUP_NAME.'?';
-$LNG->GROUP_FORM_REJECT_MESSAGE_PART1 = 'Êtes vous sûr de vouloir rejeter';
+$LNG->GROUP_FORM_REJECT_MESSAGE_PART1 = 'Êtes-vous sûr⋅e de vouloir rejeter';
 $LNG->GROUP_FORM_REJECT_MESSAGE_PART2 = 'comme un membre de '.$LNG->GROUP_NAME.'?';
-$LNG->GROUP_FORM_APPROVE_MESSAGE_PART1 = 'Êtes vous sure d\'approuver';
-$LNG->GROUP_FORM_APPROVE_MESSAGE_PART2 = 'Pour être un membre de '.$LNG->GROUP_NAME.'?';
-$LNG->GROUP_FORM_IS_JOINING_OPEN_LABEL = 'Est '.$LNG->GROUP_NAME.' joining open?';
+$LNG->GROUP_FORM_APPROVE_MESSAGE_PART1 = 'Êtes-vous sur⋅e d\'approuver';
+$LNG->GROUP_FORM_APPROVE_MESSAGE_PART2 = 'Pour être un⋅e membre de '.$LNG->GROUP_NAME.'?';
+$LNG->GROUP_FORM_IS_JOINING_OPEN_LABEL = 'Est-ce que le '.$LNG->GROUP_NAME.' est ouvert ?';
 $LNG->GROUP_FORM_IS_JOINING_OPEN_HELP = 'Sélectionner la case si vous voulez que les utilisateurs décident de rejoindre leur groupe par eux même. <br> Ne pas sélectionner la case si vous souhaitez modérer les demandes de joindre le groupe et ainsi controler qui peur rejoindre le groupe.';
 
-$LNG->GROUP_JOIN_REQUEST_MESSAGE = 'Votre requête pour joindre cet(te) '.$LNG->GROUP_NAME.' a été enregistré et est en attente d\'approbation. Vous recevrez un email quand votre requête aura été traitée.<br><br>Merci pour votre intérêt '.$LNG->GROUP_NAME;
+$LNG->GROUP_JOIN_REQUEST_MESSAGE = 'Votre requête pour joindre ce '.$LNG->GROUP_NAME.' a été enregistré et est en attente d\'approbation. Vous recevrez un email quand votre requête aura été traitée.<br><br>Merci pour votre intérêt '.$LNG->GROUP_NAME;
 $LNG->GROUP_JOIN_PENDING_MESSAGE = 'Adhésion en cours de traitement';
 $LNG->GROUP_MY_ADMIN_GROUPS_TITLE = $LNG->GROUPS_NAME.' J\'administre:';
 $LNG->GROUP_MY_MEMBER_GROUPS_TITLE = $LNG->GROUPS_NAME.' Je suis un membre de:';
 
 $LNG->GROUP_FORM_SELECT = "Sélectionner un(e) ".$LNG->GROUP_NAME;
-$LNG->GROUP_FORM_NO_MEMBERS = 'Ceci '.$LNG->GROUP_NAME.' n\'a pas de membres.';
-$LNG->GROUP_FORM_NO_PENDING = 'Ceci '.$LNG->GROUP_NAME.' n\'a pas de requêtes de membre à traiter.';
+$LNG->GROUP_FORM_NO_MEMBERS = 'Ce '.$LNG->GROUP_NAME.' n\'a pas de membres.';
+$LNG->GROUP_FORM_NO_PENDING = 'Ce '.$LNG->GROUP_NAME.' n\'a pas de requêtes de membre à traiter.';
 $LNG->GROUP_FORM_MEMBERS_PENDING = "Requêtes de membres pour rejoindre:";
 $LNG->GROUP_FORM_NAME_LABEL = "Nom";
 $LNG->GROUP_FORM_DESC_LABEL = "Description";
@@ -156,11 +156,11 @@ $LNG->GROUP_FORM_ISADMIN_LABEL = "Administrateur";
 $LNG->GROUP_FORM_REMOVE_LABEL = "Supprimer";
 $LNG->GROUP_FORM_APPROVE_LABEL = "Approuver";
 $LNG->GROUP_FORM_REJECT_LABEL = "Rejeter";
-$LNG->GROUP_FORM_REMOVE_MESSAGE_PART1 = 'Êtes vous sûr⋅e de vouloir supprimer';
+$LNG->GROUP_FORM_REMOVE_MESSAGE_PART1 = 'Êtes-vous sûr⋅e de vouloir supprimer';
 $LNG->GROUP_FORM_REMOVE_MESSAGE_PART2 = 'de ceci '.$LNG->GROUP_NAME.'?';
 $LNG->GROUP_FORM_REJECT_MESSAGE_PART1 = 'êtes';
 $LNG->GROUP_FORM_REJECT_MESSAGE_PART2 = 'as a member of this '.$LNG->GROUP_NAME.'?';
-$LNG->GROUP_FORM_APPROVE_MESSAGE_PART1 = 'Êtes vous sûr⋅e de vouloir approuver';
+$LNG->GROUP_FORM_APPROVE_MESSAGE_PART1 = 'Êtes-vous sûr⋅e de vouloir approuver';
 $LNG->GROUP_FORM_APPROVE_MESSAGE_PART2 = 'pour être un⋅e membre de ce '.$LNG->GROUP_NAME.'?';
 $LNG->GROUP_JOIN_REQUEST_MESSAGE = "Votre demande pour rejoindre ce ".$LNG->GROUP_NAME.
                                    " a été enregistrée et attend d'être approuvée.<br><br>" .
@@ -214,7 +214,7 @@ $LNG->FORM_IDEA_MERGE_TITLE = "Fusion sélectionnée ".$LNG->SOLUTIONS_NAME;
 $LNG->FORM_IDEA_MERGE_LABEL_TITLE = "Fusionné ".$LNG->SOLUTIONS_NAME." Titre...";
 $LNG->FORM_IDEA_MERGE_LABEL_DESC = "Fusionné ".$LNG->SOLUTIONS_NAME." Description...";
 $LNG->FORM_IDEA_MERGE_HINT = "Créer une nouvelle Idée représentant les Idées sélectionnées. Connecter tous commentaires et arguments dans les idées sélectionnées à cette nouvelle Idée. Ensuite retire les idées sélectionnées. ";
-$LNG->FORM_IDEA_MERGE_MUST_SELECT = 'Vous devez d\'abord retirer au moins 2 ideas pour fusionner. ';
+$LNG->FORM_IDEA_MERGE_MUST_SELECT = 'Vous devez d\'abord retirer au moins 2 idées pour fusionner. ';
 $LNG->FORM_IDEA_MERGE_NO_TITLE = "Vous devez entrer un titre pour le nouveau fusionné ".$LNG->SOLUTION_NAME;
 
 $LNG->FORM_SOLUTION_ENTER_SUMMARY_ERROR = 'Entrez un(e) '.$LNG->SOLUTION_NAME.' avant d\'essayer de fusionner';
@@ -241,7 +241,7 @@ $LNG->FORM_LINK_LABEL = "Paste ".$LNG->RESOURCE_NAME."...";
 $LNG->FORM_MORE_LINKS_BUTTONS = "Ajouter un autre ".$LNG->RESOURCE_NAME;
 $LNG->FORM_DELETE_LINKS_BUTTONS = "Supprimer";
 $LNG->FORM_LINK_INVALID_PART1 = "L'url: ";
-$LNG->FORM_LINK_INVALID_PART2 = ", n'est pas un url valide. Vérifier qu'il commence avec htt:// ou un autre protocole web valide.";
+$LNG->FORM_LINK_INVALID_PART2 = ", n'est pas un url valide. Vérifier qu'elle commence par http:// ou un autre protocole web valide.";
 $LNG->EXPLORE_EDITING_ARGUMENT_TITLE = "Edition";
 
 $LNG->STATS_PRO_HINT_TEXT = "soutien";
@@ -279,14 +279,14 @@ $LNG->ISSUE_PHASING_HELP = 'Ici vous pouvez optionnellement phaser une limite '.
 $LNG->ISSUE_PHASING_ON = 'Phaser ceci '.$LNG->DEBATE_NAME.'?';
 
 $LNG->FORM_ISSUE_START_END_DATE_ERROR = "La date de début doit précéder la date de fin";
-$LNG->FORM_LABEL_DEBATE_DATES_HINT = "(optionel) - Les dates ".$LNG->DEBATE_NAME." doivent être ouvertes à de nouvelles contributions. Formats de dates possible e.g.: '14 May 2008' or '14-05-2008'";
+$LNG->FORM_LABEL_DEBATE_DATES_HINT = "(optionnel) - Les dates ".$LNG->DEBATE_NAME." doivent être ouvertes à de nouvelles contributions. Formats de dates possible e.g.: '14 May 2008' or '14-05-2008'";
 $LNG->FORM_LABEL_DEBATE_DATES_TITLE = "Dates du débat dans son ensemble";
 $LNG->FORM_LABEL_DEBATE_START_DATE = $LNG->DEBATE_NAME." début le:";
 $LNG->FORM_LABEL_DEBATE_END_DATE = "finit le:";
 
 $LNG->FORM_ISSUE_DISCUSSION_START_DATE_ERROR = "La date de début de discussion doit être fixée avant la date de la fin de discussion et aussi entre le ".$LNG->DEBATE_NAME." Dates de début et de fin, et avant les dates de citronage et de vote, si celles-ci sont définis.";
 $LNG->FORM_ISSUE_DISCUSSION_END_DATE_ERROR = "La date de fin de discussion doit être plus tardive qu'après la ".$LNG->DEBATE_NAME." date de départ et moins ou égal à ".$LNG->DEBATE_NAME." la date de fin, et donc avant les dates de citronage et de vote, si ces dernières sont définies.";
-$LNG->FORM_LABEL_DISCUSSION_DATES_HINT = "La date avant laquelle le ".$LNG->DEBATE_NAME." doit être ouver à un nouveau ".$LNG->SOLUTIONS_NAME." et ".$LNG->ARGUMENTS_NAME.". Les formats de date permis e.g.: '14 May 2008' ou '14-05-2008'";
+$LNG->FORM_LABEL_DISCUSSION_DATES_HINT = "La date avant laquelle le ".$LNG->DEBATE_NAME." doit être ouvert à un nouveau ".$LNG->SOLUTIONS_NAME." et ".$LNG->ARGUMENTS_NAME.". Les formats de date permis e.g.: '14 May 2008' ou '14-05-2008'";
 $LNG->FORM_LABEL_DISCUSSION_DATES_TITLE = "Phase de discussion";
 $LNG->FORM_LABEL_DISCUSSION_START_DATE = "La discussion commence quand ".$LNG->DEBATE_NAME." commence";
 $LNG->FORM_LABEL_DISCUSSION_END_DATE = "La discussion se termine:";
@@ -300,11 +300,11 @@ $LNG->FORM_LABEL_LEMONING_START_DATE = "La réduction d'idées commence le:";
 $LNG->FORM_LABEL_LEMONING_END_DATE = "se termine le:";
 $LNG->LEMONING_COUNT_LEFT = 'Citrons restant:';
 $LNG->LEMONING_CURRENT_CONUNT_LABEL = 'Votes de citrons';
-$LNG->LEMONING_COUNT_FINISHED = 'Désolé, vous n\'avez plus de citron!';
+$LNG->LEMONING_COUNT_FINISHED = 'Désolé, vous n\'avez plus de citron !';
 
 $LNG->FORM_ISSUE_VOTE_START_DATE_ERROR = "La date de début de vote doit se situer entre le ".$LNG->DEBATE_NAME." Les dates de début et de fin, après les dates de discussion, et après les dates de citronage, si celles-ci sont définies.";
 $LNG->FORM_ISSUE_VOTE_START_END_ERROR = "The Voting End date must lie after the Voting Start Date and between the ".$LNG->DEBATE_NAME." Start On and End On dates, before the discussion dates and after the Lemoning dates, if these are set.";
-$LNG->FORM_LABEL_VOTING_DATES_HINT = "(optionel) - Dates entre lesquelles le vote est possible. La date de fin est issue de la date de fin du sujet/débat. Format permis e.g.: '14 May 2008' or '14-05-2008'";
+$LNG->FORM_LABEL_VOTING_DATES_HINT = "(optionnel) - Dates entre lesquelles le vote est possible. La date de fin est issue de la date de fin du sujet/débat. Format permis e.g.: '14 May 2008' or '14-05-2008'";
 $LNG->FORM_LABEL_VOTING_DATES_TITLE = "Phase de vote";
 $LNG->FORM_LABEL_VOTING_START_DATE = "Le vote commencer le:";
 $LNG->FORM_LABEL_VOTING_END_DATE = "finit le:";
@@ -474,7 +474,7 @@ $LNG->PROFILE_LOCATION = 'Localisation: (ville)';
 $LNG->PROFILE_COUNTRY = 'Pays...';
 $LNG->PROFILE_HOMEPAGE = 'Page d\'Accueil:';
 $LNG->PROFILE_EMAIL_VALIDATE_TEXT = 'Validez votre courriel';
-$LNG->PROFILE_EMAIL_VALIDATE_HINT = 'Votre courriel n\'as pas été validé. Si vous voulez utiliser la validation sociale vous aurez besoin de valider votre propre courriel.';
+$LNG->PROFILE_EMAIL_VALIDATE_HINT = 'Votre courriel n\'a pas été validé. Si vous voulez utiliser la validation sociale vous aurez besoin de valider votre propre courriel.';
 $LNG->PROFILE_EMAIL_VALIDATE_MESSAGE = 'Un courriel vous a été envoyé afin de vérifier que vous êtes le propriétaire de ce courriel.';
 $LNG->PROFILE_EMAIL_VALIDATE_COMPLETE = 'Ce courriel a été validé.';
 $LNG->PROFILE_EMAIL_CHANGE_CONFIRM = '
@@ -563,16 +563,16 @@ $LNG->FORM_REGISTER_REQUEST_DESC = 'Description personnelle:';
 $LNG->FORM_REGISTER_IMAGE_ERROR = "Éditez votre profil et uploadez une image différente une fois que vous avez complété votre inscription.";
 
 $LNG->REGISTRATION_SUCCESSFUL_TITLE = 'Inscription ';
-$LNG->REGISTRATION_SUCCESSFUL_MESSAGE = '<Vous allez rapidemment recevoir un courriel. Vous devez cliquer sur le lien à l\'intérieur pour valider votre adresse de courriel et compléter votre inscription Hub.';
+$LNG->REGISTRATION_SUCCESSFUL_MESSAGE = 'Vous allez rapidemment recevoir un courriel. Vous devez cliquer sur le lien à l\'intérieur pour valider votre adresse de courriel et compléter votre inscription Hub.';
 $LNG->REGISTRATION_COMPLETE_TITLE = 'Inscription finalisée';
 $LNG->REGISTRATION_FAILED = 'Votre inscription n\'a pu être finalisée. Essayez de vous inscrire une prochaine fois ';
 $LNG->REGISTRATION_FAILED_INVALID = 'Votre inscription n\'a pas pu être complétée, la clé est invalide. Enregistrez vous une nouvelle fois';
 $LNG->REGISTRATION_SUCCESSFUL_LOGIN = "Vous pouvez dorénavant <a href='".$CFG->homeAddress."ui/pages/login.php'>se connecter</a>";
 
 $LNG->REGISTRATION_REQUEST_SUCCESSFUL_TITLE = 'Requête d\'enregistrement recue';
-$LNG->REGISTRATION_REQUEST_SUCCESSFUL_MESSAGE = 'Merci de votre intéret à contribuer à ce Debate Hub.<br>Votre demande d\'inscription vous a été envoyée et vous serez contacté sous peu.';
+$LNG->REGISTRATION_REQUEST_SUCCESSFUL_MESSAGE = 'Merci pour votre intérêt de contribuer à ce Debate Hub.<br>Votre demande d\'inscription vous a été envoyée et vous serez contacté sous peu.';
 
-$LNG->REGISTRATION_REQUEST_SUCCESSFUL_TITLE_ADMIN = 'Enregistrement d\'un nouvel utilisateur réussie';
+$LNG->REGISTRATION_REQUEST_SUCCESSFUL_TITLE_ADMIN = 'Enregistrement d\'un nouvel utilisateur réussi';
 $LNG->REGISTRATION_REQUEST_SUCCESSFUL_MESSAGE_ADMIN = "Un courriel a été envoyé au nouvel utilisateur avec leur détail de connection";
 
 $LNG->FORM_HEADER_MESSAGE = 'Soyez conscient que toute donnée entrée ici sera visible publiquement sur ce site par les autres utilisateurs.';
@@ -619,7 +619,7 @@ $LNG->FORM_ERROR_CAPTCHA_INVALID = "Le reCAPTCHA n'a pas été entré correcteme
 $LNG->FORM_ACTIVITY_HEADING = 'Activité récente pour';
 $LNG->FORM_ACTIVITY_TABLE_HEADING_DATE = 'Date';
 $LNG->FORM_ACTIVITY_TABLE_HEADING_TYPE = 'Type';
-$LNG->FORM_ACTIVITY_TABLE_HEADING_DONEBY = 'Fais par';
+$LNG->FORM_ACTIVITY_TABLE_HEADING_DONEBY = 'Fait par';
 $LNG->FORM_ACTIVITY_TABLE_HEADING_ACTION = 'Action';
 $LNG->FORM_ACTIVITY_TABLE_HEADING_ITEM = 'Objet';
 $LNG->FORM_ACTIVITY_ACTION_STARTED_FOLLOWING = 'a commencé le suivant';
@@ -654,14 +654,14 @@ $LNG->FORM_ACTIVITY_ACTION_UNSOUND_EVIDENCE = 'n\'était pas solide '.$LNG->ARGU
 $LNG->FORM_ACTIVITY_ACTION_DEMOTED = 'devrait être rétrogradé contre / par rapport à ';
 $LNG->FORM_ACTIVITY_LABEL_WITH = 'avec';
 $LNG->FORM_ACTIVITY_LABEL_FROM = 'venant de';
-$LNG->FORM_ACTIVITY_PROBLEM_MESSAGE = 'Les problèmes suivant ont été identifiés à partir de la récupération des données d\'activité: ';
+$LNG->FORM_ACTIVITY_PROBLEM_MESSAGE = 'Les problèmes suivants ont été identifiés à partir de la récupération des données d\'activité: ';
 
 //Issue
 $LNG->FORM_ISSUE_TITLE_ADD = 'Ajouter un nouveau '.$LNG->DEBATE_NAME;
 $LNG->FORM_ISSUE_TITLE_EDIT = 'Editer ce '.$LNG->DEBATE_NAME;
 $LNG->FORM_ISSUE_ENTER_SUMMARY_ERROR = 'Entrer un(e) '.$LNG->ISSUE_NAME.' résumez avant de publier';
 $LNG->FORM_ISSUE_CREATE_ERROR_MESSAGE = 'Un problème est arrivé lors de la création du '.$LNG->ISSUE_NAME.':';
-$LNG->FORM_ISSUE_HEADING_MESSAGE = 'Ajoutez une question que vous êtes en train d\'étudier ou un(e) Add a question you are investigating or a '.$LNG->ISSUE_NAME.' vous pensez que la communnauté doit aborder.';
+$LNG->FORM_ISSUE_HEADING_MESSAGE = 'Ajoutez une question que vous êtes en train d\'étudier ou un⋅e '.$LNG->ISSUE_NAME.' vous pensez que la communnauté doit aborder.';
 $LNG->FORM_ISSUE_LABEL_SUMMARY = $LNG->ISSUE_NAME.' Résumé:';
 $LNG->FORM_ISSUE_NOT_FOUND = 'Cette chose requise '.$LNG->ISSUE_NAME.' n\'a pu être trouvé';
 
@@ -672,7 +672,7 @@ $LNG->ISSUE_DESC_FORM_HINT = '(optionnel) - Entrez une description plus longue d
 
 /**** EMAIL TEXT *****/
 $LNG->WELCOME_REGISTER_OPEN_SUBJECT = "Bienvenue à ".$CFG->SITE_TITLE;
-$LNG->WELCOME_REGISTER_OPEN_BODY = 'Merci de vous être inscrit.<br><br>Pour plus d\'informations concernant DebateHub, vous pouvez lire notre <a href="'.$CFG->homeAddress.'ui/pages/about.php">concernant la page</a>.<br>Pour tout aide concernant comment d´buter sur le hub, vous pouvez visiter notre <a href="'.$CFG->homeAddress.'help/">help page</a>.<br>Why not start using the <a href="'.$CFG->homeAddress.'">'.$CFG->SITE_TITLE.'</a> aujourd\'hui';
+$LNG->WELCOME_REGISTER_OPEN_BODY = 'Merci de vous être inscrit⋅e.<br><br>Pour plus d\'informations concernant DebateHub, vous pouvez lire notre <a href="'.$CFG->homeAddress.'ui/pages/about.php">concernant la page</a>.<br>Pour tout aide concernant comment d´buter sur le hub, vous pouvez visiter notre <a href="'.$CFG->homeAddress.'help/">help page</a>.<br>Why not start using the <a href="'.$CFG->homeAddress.'">'.$CFG->SITE_TITLE.'</a> aujourd\'hui';
 
 $LNG->VALIDATE_REGISTER_SUBJECT = "Complétez votre inscription sur ".$CFG->SITE_TITLE;
 
@@ -707,7 +707,7 @@ $LNG->NODE_VOTE_OWN_HINT = 'Vous ne pouvez pas voter ces ';
 $LNG->NODE_ADDED_ON = 'Ajouté le:';
 $LNG->NODE_URL_HEADING = 'Url:';
 
-$LNG->NODE_DISCONNECT_CHECK_MESSAGE_PART1 = 'Êtes vous sûr de vouloir vous déconnecter?';
+$LNG->NODE_DISCONNECT_CHECK_MESSAGE_PART1 = 'Êtes-vous sûr⋅e de vouloir vous déconnecter?';
 $LNG->NODE_DISCONNECT_CHECK_MESSAGE_PART2 = 'de';
 $LNG->NODE_DISCONNECT_CHECK_MESSAGE_PART3 = '?';
 $LNG->NODE_DELETE_CHECK_MESSAGE = 'Êtes vous sûr de vouloir supprimer le';
@@ -977,25 +977,25 @@ $LNG->SPAM_ADMIN_RESTORE_CHECK_MESSAGE = "Êtes vous sûr de vouloir l'indiquer 
 $LNG->SPAM_ADMIN_RESTORE_BUTTON = "Non Spam";
 $LNG->SPAM_ADMIN_DELETE_BUTTON = "Supprimer";
 $LNG->SPAM_ADMIN_VIEW_BUTTON = "Voir les détails";
-$LNG->SPAM_ADMIN_NONE_MESSAGE = 'There are currently no items reported as Spam / Inappropriate';
+$LNG->SPAM_ADMIN_NONE_MESSAGE = 'Il n\'y a actuellement pas d\'objets signalés comme spam / inapproprié';
 
-$LNG->SPAM_USER_REPORTED = 'User has been reported as a Spammer / Inappropriate';
-$LNG->SPAM_USER_REPORT = 'Report this User as a Spammer / Inappropriate';
-$LNG->SPAM_USER_LOGIN_REPORT = 'Login to report this User or Group as Spam / Inappropriate';
-$LNG->SPAM_USER_REPORTED_ALT = 'Reported';
-$LNG->SPAM_USER_REPORT_ALT = 'Report';
-$LNG->SPAM_USER_LOGIN_REPORT_ALT = 'Login to Report';
-$LNG->SPAM_USER_ADMIN_TABLE_HEADING0 = "Reported By";
-$LNG->SPAM_USER_ADMIN_TABLE_HEADING1 = "User Name";
+$LNG->SPAM_USER_REPORTED = 'L\'utilisateur a été signalé comme spammer / contenu inappropré.';
+$LNG->SPAM_USER_REPORT = 'Signaler cet utilisateur comme spammer / contenu inappropré';
+$LNG->SPAM_USER_LOGIN_REPORT = 'Se connecter pour signaler cet utilisateur comme spammer / contenu inappropré';
+$LNG->SPAM_USER_REPORTED_ALT = 'Signaler';
+$LNG->SPAM_USER_REPORT_ALT = 'Rapport de signal';
+$LNG->SPAM_USER_LOGIN_REPORT_ALT = 'Se connecter pour signaler';
+$LNG->SPAM_USER_ADMIN_TABLE_HEADING0 = "Signaler par";
+$LNG->SPAM_USER_ADMIN_TABLE_HEADING1 = "Nom d'utilisateur";
 $LNG->SPAM_USER_ADMIN_TABLE_HEADING2 = "Action";
-$LNG->SPAM_USER_ADMIN_VIEW_BUTTON = "View User Home";
-$LNG->SPAM_USER_ADMIN_VIEW_HINT = "Open a new Window showing this user's home page";
-$LNG->SPAM_USER_ADMIN_RESTORE_BUTTON = "Restore Account";
-$LNG->SPAM_USER_ADMIN_RESTORE_HINT = "Restore this user account to active";
-$LNG->SPAM_USER_ADMIN_DELETE_BUTTON = "Delete Account";
-$LNG->SPAM_USER_ADMIN_DELETE_HINT = "Delete this user account and all their data";
-$LNG->SPAM_USER_ADMIN_SUSPEND_BUTTON = "Suspend Account";
-$LNG->SPAM_USER_ADMIN_SUSPEND_HINT = "Suspend this user account and prevent them signing in";
+$LNG->SPAM_USER_ADMIN_VIEW_BUTTON = "Voir la page d'acceuil de l'utilisateur";
+$LNG->SPAM_USER_ADMIN_VIEW_HINT = "Ouvrir une nouvelle fenêtre montrant la page d'acceuil de cet utilisateur";
+$LNG->SPAM_USER_ADMIN_RESTORE_BUTTON = "Restorer le compte";
+$LNG->SPAM_USER_ADMIN_RESTORE_HINT = "Restorer le conpte de cet utilisateur comme actif";
+$LNG->SPAM_USER_ADMIN_DELETE_BUTTON = "Supprimer le compte";
+$LNG->SPAM_USER_ADMIN_DELETE_HINT = "Supprimer ce compte utilisateur et toutes ses données";
+$LNG->SPAM_USER_ADMIN_SUSPEND_BUTTON = "Suspendre le compte";
+$LNG->SPAM_USER_ADMIN_SUSPEND_HINT = "Suspendre le compte de cet utilisateur and prevent them signing in";
 $LNG->SPAM_USER_ADMIN_DELETE_CHECK_MESSAGE_PART1 = "Are you sure you want to delete the user: ";
 $LNG->SPAM_USER_ADMIN_DELETE_CHECK_MESSAGE_PART2 = "Be warned: all their data will be permanently deleted. If you have not done so, you should check their contributions first by clicking '".$LNG->SPAM_USER_ADMIN_VIEW_BUTTON."'";;
 $LNG->SPAM_USER_ADMIN_RESTORE_CHECK_MESSAGE_PART1 = "Are you sure you want to restore the account of: ";
@@ -1019,7 +1019,7 @@ $LNG->LOGIN_EXTERNAL_ERROR_HYBRIDAUTH_5 = 'Authentication failed. The user has c
 $LNG->LOGIN_EXTERNAL_ERROR_HYBRIDAUTH_6 = 'User profile request failed. Most likely the user is not connected to the provider and he should try to authenticate again';
 $LNG->LOGIN_EXTERNAL_ERROR_HYBRIDAUTH_7 = 'User not connected to the provider.';
 
-$LNG->LOGIN_EXTERNAL_ERROR_ACCOUNT_UNVALIDATED = 'An Debate Hub user account already exists on this site using the email address from your external profile, but that user account has not completed the registration process.<br>If you own that user account you need to reply to the email you where sent to complete your registration, before you can Sign In.';
+$LNG->LOGIN_EXTERNAL_ERROR_ACCOUNT_UNVALIDATED = 'Un compte Debate Hub existe déjà sur ce site en utilisant une adresse de courriel provenant de votre profil externe, mais ce compte utilisateur n\'a pas complété le processus d\'enregistrement.<br>If you own that user account you need to reply to the email you where sent to complete your registration, before you can Sign In.';
 $LNG->LOGIN_EXTERNAL_ERROR_ACCOUNT_UNVALIDATED_EXISTING = 'An Debate Hub user account already exists on this site using the email address from your external profile, but that Debate Hub user account has not had the email address verify yet.<br><br>If you own that Debate Hub user account you first need to <a href="'.$CFG->homeAddress.'ui/pages/login.php">Sign In</a> using that account and verify your email address from your profile page, before you can use any external services to Sign In to this Hub in the future.';
 $LNG->LOGIN_EXTERNAL_ERROR_ACCOUNT_UNAUTHORIZED = 'An Debate Hub user account already exists using the email address from your external profile, however that account is awaiting authorization, so we cannot log you in at this time.';
 $LNG->LOGIN_EXTERNAL_ERROR_ACCOUNT_SUSPENDED = 'An Debate Hub user account already exists on this site using the email address on your external profile, however the account has currently been suspended, so we cannot log you in at this time.';
@@ -1082,17 +1082,17 @@ $LNG->LOGIN_EXTERNAL_WELCOME_MESSAGE_PART2 = ', so we have now created one and a
 $LNG->LOGIN_EXTERNAL_WELCOME_MESSAGE_PART3 = 'profile.';
 $LNG->LOGIN_EXTERNAL_WELCOME_MESSAGE_PART4 = 'You should receive a welcome email shortly.';
 
-$LNG->LOGIN_EXTERNAL_ENTER_BUTTON = 'Enter Site';
+$LNG->LOGIN_EXTERNAL_ENTER_BUTTON = 'Entrer sur le site';
 
 /** NEW LOGIN ADDITIONS **/
-$LNG->VALIDATION_COMPLETE_TITLE = 'Email Address Validation';
-$LNG->VALIDATION_FAILED = 'Your email address validation could not be completed. Please try again';
-$LNG->VALIDATION_FAILED_INVALID = 'Your email address validation could not be completed as the Validation key was invalid for the given user. Please try again';
-$LNG->VALIDATION_SUCCESSFUL_LOGIN = "Thank you for validating your email address with us.</a>";
+$LNG->VALIDATION_COMPLETE_TITLE = 'Validation de l\'adresse du courriel';
+$LNG->VALIDATION_FAILED = 'Votre validation d\'adresse de courriel n\'a pu être complété. Essayez une nouvelle fois.';
+$LNG->VALIDATION_FAILED_INVALID = "Votre adresse de courriel est invalide, la validation de votre adresse n'a pu être complété car la clé de validation était invalide pour cet utilisateur. Essayez une nouvelle fois";
+$LNG->VALIDATION_SUCCESSFUL_LOGIN = "Merci d'avoir validé votre adresse.</a>";
 
-$LNG->EMAIL_VALIDATE_TEXT = 'Send New Validation Email';
-$LNG->EMAIL_VALIDATE_HINT = 'Click here to be sent another validation email for you to complete your registration of this external profile with us.';
-$LNG->EMAIL_VALIDATE_MESSAGE = 'You have been sent an email to validate that you own the email address you tried to Sign In with.';
+$LNG->EMAIL_VALIDATE_TEXT = 'Envoyer une nouvelle validation de courriel';
+$LNG->EMAIL_VALIDATE_HINT = "Cliquez ici pour vous envoyer un autre courriel de validation afin de compléter l' enregistrement de votre profil externe avec nous.";
+$LNG->EMAIL_VALIDATE_MESSAGE = "Nous vous avons envoyé un courriel pour vérifier que vous possédez l'adresse de courriel avec laquelle vous avez tenté de vous connecter.Y.";
 
 /** ADMIN USER REGISTRATION MANAGER **/
 $LNG->REGSITRATION_ADMIN_MANAGER_LINK = "Registration Requests";
@@ -1124,8 +1124,8 @@ $LNG->REGSITRATION_ADMIN_USER_EMAILED_REJECTION = 'has been emailed that their r
 $LNG->REGSITRATION_ADMIN_EMAIL_REQUEST_SUBJECT = $LNG->WELCOME_REGISTER_REQUEST_SUBJECT;
 
 // %s will be replace with the name of the current Debate Hub. When translating please leave this in the sentence appropariately placed.
-$LNG->REGSITRATION_ADMIN_EMAIL_REJECT_BODY = 'Thank you for requesting registration on the %s.<br>Unfortunately, on this occasion, your request for a user account has not been successful.';
+$LNG->REGSITRATION_ADMIN_EMAIL_REJECT_BODY = "Merci d'avoir demandé votre inscription dans %s.<br>Malheureusement, cette fois-ci, votre requête pour obtenir un compte utilisateur n'a pas été fructueuse";
 
-$LNG->RECENT_EMAIL_DIGEST_LABEL = 'Email Digest:';
-$LNG->RECENT_EMAIL_DIGEST_REGISTER_MESSAGE = "Tick to receive a monthly email digest of recent activity.";
-$LNG->RECENT_EMAIL_DIGEST_PROFILE_MESSAGE = "Opt in/out of receiving a monthly email digest of recent activity.";
+$LNG->RECENT_EMAIL_DIGEST_LABEL = 'Digest par courriel:';
+$LNG->RECENT_EMAIL_DIGEST_REGISTER_MESSAGE = "Cochez cette case afin de recevoir un digest mensuel par courriel des récentes activités.";
+$LNG->RECENT_EMAIL_DIGEST_PROFILE_MESSAGE = "Activer / désactiver l'envoi mensuel du digest par courriel concernant les activités récentes.";
